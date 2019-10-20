@@ -1,0 +1,125 @@
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.ConsultarPelicula.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.IngresarPeliculas.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.RevisarAsientos.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.ConsultarPelicula.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.IngresarPeliculas.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.RevisarAsientos.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v3\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.ConsultarPelicula.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.IngresarPeliculas.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.RevisarAsientos.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.ConsultarPelicula.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Factura.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.IngresarPeliculas.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.RevisarAsientos.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\proy rafa v5\Proyecto1DS8_v4.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.ConsultarPelicula.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Factura.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.IngresarPeliculas.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.RevisarAsientos.resources
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+C:\Users\USER\Downloads\Proyecto1DS8v1.0\Proyecto1DS8_v7.0\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.ConsultarPelicula.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Factura.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.IngresarPeliculas.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.RevisarAsientos.resources
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+D:\Documents\UTP\Tercero\Desarrollo de Software VIII\Portafolio\3. Actividades y bitácora de aprendizaje\3.2 Proyectos\proy rafa\pro rafa v8\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.ConsultarPelicula.resources
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Factura.resources
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.IngresarPeliculas.resources
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.RevisarAsientos.resources
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.CoreCompileInputs.cache
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+T:\archivos\trabajos visual studio\Proyecto1DS8\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
