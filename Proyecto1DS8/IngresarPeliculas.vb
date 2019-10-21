@@ -223,7 +223,7 @@ Public Class IngresarPeliculas
             e.Cancel = True
         End If
     End Sub
-
+    'validadcion de que se llene el nombre de la pelicula 
     Private Sub txtAñadirNombrePelicula2_Validating(sender As Object, e As CancelEventArgs) Handles txtAñadirNombrePelicula2.Validating
         If txtAñadirNombrePelicula2.Text = "" Then
             MsgBox("Rellene el campo nombre de la película 2", MsgBoxStyle.Critical)
@@ -233,7 +233,7 @@ Public Class IngresarPeliculas
             e.Cancel = True
         End If
     End Sub
-
+    'validadcion de que se llene el nombre de la pelicula 
     Private Sub txtAñadirNombrePelicula3_Validating(sender As Object, e As CancelEventArgs) Handles txtAñadirNombrePelicula3.Validating
         If txtAñadirNombrePelicula3.Text = "" Then
             MsgBox("Rellene el campo nombre de la película 3", MsgBoxStyle.Critical)
@@ -243,7 +243,7 @@ Public Class IngresarPeliculas
             e.Cancel = True
         End If
     End Sub
-
+    'validadcion de que se llene el nombre de la pelicula 
     Private Sub txtAñadirNombrePelicula4_Validating(sender As Object, e As CancelEventArgs) Handles txtAñadirNombrePelicula4.Validating
         If txtAñadirNombrePelicula4.Text = "" Then
             MsgBox("Rellene el campo nombre de la película 4", MsgBoxStyle.Critical)
