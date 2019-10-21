@@ -95,6 +95,11 @@
         txtCosto.Text = costo
     End Sub
 
+    Function ValidacionesVarias() As Boolean
+
+        Return True
+    End Function
+
     Private Sub btnProcesar_Click(sender As Object, e As EventArgs) Handles btnProcesar.Click
         Call validarEdad()
         btnPagar.Show()
@@ -141,6 +146,7 @@
         nudNumeroBoleto.Show()
         dtpFechaEntrada.Show()
         txtAsiento.Show()
+        lbHorarioElegido.SelectedIndex = 0
     End Sub
 
 End Class
