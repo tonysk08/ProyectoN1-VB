@@ -23,6 +23,7 @@ Partial Class comprarBoleto
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.gbdatosEntrada = New System.Windows.Forms.GroupBox()
+        Me.lblPeliculaEstrenoSiNo = New System.Windows.Forms.Label()
         Me.lblPeliculaEstreno = New System.Windows.Forms.Label()
         Me.txtNumeroSala = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -49,7 +50,6 @@ Partial Class comprarBoleto
         Me.ConsultarPelículasYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAsientosDisponiblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerTotalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.lblPeliculaEstrenoSiNo = New System.Windows.Forms.Label()
         Me.gbdatosEntrada.SuspendLayout()
         CType(Me.pbCartelera, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudNumeroBoleto, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -90,6 +90,17 @@ Partial Class comprarBoleto
         Me.gbdatosEntrada.TabIndex = 0
         Me.gbdatosEntrada.TabStop = False
         Me.gbdatosEntrada.Text = "Datos de entrada"
+        '
+        'lblPeliculaEstrenoSiNo
+        '
+        Me.lblPeliculaEstrenoSiNo.AutoSize = True
+        Me.lblPeliculaEstrenoSiNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPeliculaEstrenoSiNo.Location = New System.Drawing.Point(271, 237)
+        Me.lblPeliculaEstrenoSiNo.Name = "lblPeliculaEstrenoSiNo"
+        Me.lblPeliculaEstrenoSiNo.Size = New System.Drawing.Size(61, 20)
+        Me.lblPeliculaEstrenoSiNo.TabIndex = 52
+        Me.lblPeliculaEstrenoSiNo.Text = "Estado"
+        Me.lblPeliculaEstrenoSiNo.Visible = False
         '
         'lblPeliculaEstreno
         '
@@ -356,17 +367,6 @@ Partial Class comprarBoleto
         Me.VerTotalesToolStripMenuItem.Name = "VerTotalesToolStripMenuItem"
         Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(119, 32)
         Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
-        '
-        'lblPeliculaEstrenoSiNo
-        '
-        Me.lblPeliculaEstrenoSiNo.AutoSize = True
-        Me.lblPeliculaEstrenoSiNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPeliculaEstrenoSiNo.Location = New System.Drawing.Point(271, 237)
-        Me.lblPeliculaEstrenoSiNo.Name = "lblPeliculaEstrenoSiNo"
-        Me.lblPeliculaEstrenoSiNo.Size = New System.Drawing.Size(76, 25)
-        Me.lblPeliculaEstrenoSiNo.TabIndex = 52
-        Me.lblPeliculaEstrenoSiNo.Text = "Estado"
-        Me.lblPeliculaEstrenoSiNo.Visible = False
         '
         'comprarBoleto
         '

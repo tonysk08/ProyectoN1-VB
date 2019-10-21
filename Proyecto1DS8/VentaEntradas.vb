@@ -18,7 +18,14 @@
 
         DifDias = DateDiff("d", fechaEstreno, fechaPelicula)
 
-        Return CStr(DifDias)
+        If DifDias <= 7 Then
+            Return "Si"
+        ElseIf DifDias > 7 Then
+            Return "No"
+        Else
+            Return "Error"
+        End If
+
     End Function
 
 
