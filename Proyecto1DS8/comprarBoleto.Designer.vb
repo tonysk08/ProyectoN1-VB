@@ -50,6 +50,7 @@ Partial Class comprarBoleto
         Me.ConsultarPelículasYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAsientosDisponiblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerTotalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cbPaseCortesia = New System.Windows.Forms.CheckBox()
         Me.gbdatosEntrada.SuspendLayout()
         CType(Me.pbCartelera, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudNumeroBoleto, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -60,6 +61,7 @@ Partial Class comprarBoleto
         'gbdatosEntrada
         '
         Me.gbdatosEntrada.BackColor = System.Drawing.Color.SkyBlue
+        Me.gbdatosEntrada.Controls.Add(Me.cbPaseCortesia)
         Me.gbdatosEntrada.Controls.Add(Me.lblPeliculaEstrenoSiNo)
         Me.gbdatosEntrada.Controls.Add(Me.lblPeliculaEstreno)
         Me.gbdatosEntrada.Controls.Add(Me.txtNumeroSala)
@@ -368,6 +370,17 @@ Partial Class comprarBoleto
         Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(119, 32)
         Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
         '
+        'cbPaseCortesia
+        '
+        Me.cbPaseCortesia.AutoSize = True
+        Me.cbPaseCortesia.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbPaseCortesia.Location = New System.Drawing.Point(275, 263)
+        Me.cbPaseCortesia.Name = "cbPaseCortesia"
+        Me.cbPaseCortesia.Size = New System.Drawing.Size(200, 30)
+        Me.cbPaseCortesia.TabIndex = 53
+        Me.cbPaseCortesia.Text = "Pase de Cortesía"
+        Me.cbPaseCortesia.UseVisualStyleBackColor = True
+        '
         'comprarBoleto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -419,4 +432,5 @@ Partial Class comprarBoleto
     Friend WithEvents VerTotalesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents lblPeliculaEstreno As Label
     Friend WithEvents lblPeliculaEstrenoSiNo As Label
+    Friend WithEvents cbPaseCortesia As CheckBox
 End Class
