@@ -242,7 +242,7 @@ Partial Class Totales
         'lblTotalDineroCortesia
         '
         Me.lblTotalDineroCortesia.AutoSize = True
-        Me.lblTotalDineroCortesia.Location = New System.Drawing.Point(385, 87)
+        Me.lblTotalDineroCortesia.Location = New System.Drawing.Point(385, 76)
         Me.lblTotalDineroCortesia.Name = "lblTotalDineroCortesia"
         Me.lblTotalDineroCortesia.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalDineroCortesia.TabIndex = 14
@@ -269,7 +269,7 @@ Partial Class Totales
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(53, 87)
+        Me.Label5.Location = New System.Drawing.Point(53, 76)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(258, 16)
         Me.Label5.TabIndex = 6

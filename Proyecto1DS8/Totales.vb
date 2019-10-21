@@ -39,6 +39,8 @@
         lblTotalAdulto.Text = AlmacenandoTotales.returnMayorEdad(0) & " clientes adultos"
         lblTotalNinos.Text = AlmacenandoTotales.returnMenorEdad(0) & " clientes niños"
         lblTotalRecaudado.Text = AlmacenandoTotales.returnMontoTotal(0) & "$"
+        lblTotalCortesia.Text = AlmacenandoTotales.returnPaseCortesiaSi(0) & " personas"
+        lblTotalDineroCortesia.Text = AlmacenandoTotales.returnDineroCortesia(0) & "$"
     End Sub
 
 End Class

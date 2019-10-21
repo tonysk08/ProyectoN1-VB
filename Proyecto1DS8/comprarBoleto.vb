@@ -28,10 +28,8 @@
 
     'Al presionarel botón pagar se comprueba que el monto ingresado lógico y se envían varios datos.
     Private Sub btnPagar_Click(sender As Object, e As EventArgs) Handles btnPagar.Click
-        If (txtPagas.Text = "0") Then
-            MsgBox("Su pago no puede ser 0")
-        Else
-            Dim costo, pagas As Double
+
+        Dim costo, pagas As Double
             Dim total As Double
             Dim movieName, movieDate, movieHour, movieDay As String
             movieName = ""
@@ -79,14 +77,10 @@
             AlmacenandoTotales.returnMayorEdad(nudMayores.Value)
             AlmacenandoTotales.returnMenorEdad(nudMenores.Value)
 
-            If ckbPaseCortesia.Checked Then
-                AlmacenandoTotales.returnPaseCortesiaSi(nudNumeroBoleto.Value)
-            Else
-                AlmacenandoTotales.returnPaseCortesiaNo(nudNumeroBoleto.Value)
-            End If
-
-
+        If ckbPaseCortesia.Checked Then
+            AlmacenandoTotales.returnPaseCortesiaSi(nudMenores.Value + nudMayores.Value)
         End If
+
     End Sub
 
 
@@ -114,7 +108,6 @@
     'Calcula los precios según los boletos seleccionados
     Sub CalcularPrecios()
         Dim costo As Double = 0
-
         If (nudMayores.Value + nudMenores.Value = nudNumeroBoleto.Value) Then
             costo = costo + (nudMayores.Value * 4)
             costo = costo + (nudMenores.Value * 2)
@@ -123,6 +116,10 @@
         End If
 
         txtCosto.Text = costo
+
+        If ckbPaseCortesia.Checked Then
+            AlmacenandoTotales.returnDineroCortesia(costo)
+        End If
 
     End Sub
 
@@ -146,6 +143,10 @@
             lblCosto.Show()
         Else
             MsgBox("Rellene todos los datos solicitados")
+        End If
+
+        If ckbPaseCortesia.Checked Then
+            txtCosto.Text = 0
         End If
     End Sub
 
