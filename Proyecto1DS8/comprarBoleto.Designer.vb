@@ -23,9 +23,6 @@ Partial Class comprarBoleto
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.gbdatosEntrada = New System.Windows.Forms.GroupBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.nudMayores = New System.Windows.Forms.NumericUpDown()
-        Me.nudMenores = New System.Windows.Forms.NumericUpDown()
         Me.lblPeliculaEstrenoSiNo = New System.Windows.Forms.Label()
         Me.lblPeliculaEstreno = New System.Windows.Forms.Label()
         Me.txtNumeroSala = New System.Windows.Forms.TextBox()
@@ -53,18 +50,22 @@ Partial Class comprarBoleto
         Me.ConsultarPelículasYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAsientosDisponiblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerTotalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.nudMayores = New System.Windows.Forms.NumericUpDown()
+        Me.nudMenores = New System.Windows.Forms.NumericUpDown()
         Me.gbdatosEntrada.SuspendLayout()
-        CType(Me.nudMayores, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.nudMenores, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbCartelera, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudNumeroBoleto, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudEdad, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.nudMayores, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.nudMenores, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'gbdatosEntrada
         '
         Me.gbdatosEntrada.BackColor = System.Drawing.Color.SkyBlue
+        Me.gbdatosEntrada.Controls.Add(Me.nudMenores)
+        Me.gbdatosEntrada.Controls.Add(Me.nudMayores)
         Me.gbdatosEntrada.Controls.Add(Me.lblPeliculaEstrenoSiNo)
         Me.gbdatosEntrada.Controls.Add(Me.lblPeliculaEstreno)
         Me.gbdatosEntrada.Controls.Add(Me.txtNumeroSala)
@@ -95,29 +96,6 @@ Partial Class comprarBoleto
         Me.gbdatosEntrada.TabIndex = 0
         Me.gbdatosEntrada.TabStop = False
         Me.gbdatosEntrada.Text = "Datos de entrada"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(330, 62)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 20)
-        Me.Label2.TabIndex = 55
-        Me.Label2.Text = "Menores"
-        '
-        'nudMayores
-        '
-        Me.nudMayores.Location = New System.Drawing.Point(429, 85)
-        Me.nudMayores.Name = "nudMayores"
-        Me.nudMayores.Size = New System.Drawing.Size(46, 26)
-        Me.nudMayores.TabIndex = 54
-        '
-        'nudMenores
-        '
-        Me.nudMenores.Location = New System.Drawing.Point(349, 85)
-        Me.nudMenores.Name = "nudMenores"
-        Me.nudMenores.Size = New System.Drawing.Size(42, 26)
-        Me.nudMenores.TabIndex = 53
         '
         'lblPeliculaEstrenoSiNo
         '
@@ -408,6 +386,20 @@ Partial Class comprarBoleto
         Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(96, 25)
         Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
         '
+        'nudMayores
+        '
+        Me.nudMayores.Location = New System.Drawing.Point(366, 85)
+        Me.nudMayores.Name = "nudMayores"
+        Me.nudMayores.Size = New System.Drawing.Size(50, 26)
+        Me.nudMayores.TabIndex = 53
+        '
+        'nudMenores
+        '
+        Me.nudMenores.Location = New System.Drawing.Point(432, 85)
+        Me.nudMenores.Name = "nudMenores"
+        Me.nudMenores.Size = New System.Drawing.Size(38, 26)
+        Me.nudMenores.TabIndex = 54
+        '
         'comprarBoleto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -421,13 +413,13 @@ Partial Class comprarBoleto
         Me.Text = "Form2"
         Me.gbdatosEntrada.ResumeLayout(False)
         Me.gbdatosEntrada.PerformLayout()
-        CType(Me.nudMayores, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.nudMenores, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbCartelera, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.nudNumeroBoleto, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.nudEdad, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.nudMayores, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.nudMenores, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -461,4 +453,6 @@ Partial Class comprarBoleto
     Friend WithEvents VerTotalesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents lblPeliculaEstreno As Label
     Friend WithEvents lblPeliculaEstrenoSiNo As Label
+    Friend WithEvents nudMenores As NumericUpDown
+    Friend WithEvents nudMayores As NumericUpDown
 End Class
