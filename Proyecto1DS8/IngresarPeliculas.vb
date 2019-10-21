@@ -19,12 +19,12 @@ Public Class IngresarPeliculas
         bienvenida.Show()
         Me.Hide()
     End Sub
-
+    'Evento click para decir que ya te encuentras en la ventana
     Private Sub IngresarPelículaYTandasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IngresarPelículaYTandasToolStripMenuItem.Click
         MsgBox("Ya estás en esta ventana")
     End Sub
 
-
+    'Evento para cambiar de ventana a totales
     Private Sub VerTotalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerTotalesToolStripMenuItem.Click
         'Aquí se controla que no se puede cambiar de ventana hasta que se haya completado todo
         If cambioVentana = 1 Then
@@ -34,7 +34,7 @@ Public Class IngresarPeliculas
             MsgBox("No puedes salir de esta ventana hasta rellenear todos los campos")
         End If
     End Sub
-
+    'Consulta de peliculas
     Private Sub ConsultarPelículasYTandasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarPelículasYTandasToolStripMenuItem.Click
         'Aquí se controla que no se puede cambiar de ventana hasta que se haya completado todo
         If cambioVentana = 1 Then
@@ -44,7 +44,7 @@ Public Class IngresarPeliculas
             MsgBox("No puedes salir de esta ventana hasta rellenear todos los campos")
         End If
     End Sub
-
+    'Evento click para ver pantalla de asientos
     Private Sub VerAsientosDisponiblesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerAsientosDisponiblesToolStripMenuItem.Click
         'Aquí se controla que no se puede cambiar de ventana hasta que se haya completado todo
         If cambioVentana = 1 Then
@@ -66,7 +66,7 @@ Public Class IngresarPeliculas
             ruta1 = ""
         End If
     End Sub
-
+    'Evento click para cargar imagen
     Private Sub BtnCargarImagenPelicula2_Click(sender As Object, e As EventArgs) Handles btnCargarImagenPelicula2.Click
         If pfdCargaImagen.ShowDialog = DialogResult.OK Then
             pbImagenAñadidaPelicula2.ImageLocation = pfdCargaImagen.FileName.ToString
@@ -75,7 +75,7 @@ Public Class IngresarPeliculas
             ruta2 = ""
         End If
     End Sub
-
+    'Evento click para cargar imagen
     Private Sub BtnCargarImagenPelicula3_Click(sender As Object, e As EventArgs) Handles btnCargarImagenPelicula3.Click
         If pfdCargaImagen.ShowDialog = DialogResult.OK Then
             pbImagenAñadidaPelicula3.ImageLocation = pfdCargaImagen.FileName.ToString
@@ -84,7 +84,7 @@ Public Class IngresarPeliculas
             ruta3 = ""
         End If
     End Sub
-
+    'Evento click para cargar imagen
     Private Sub BtnCargarImagenPelicula4_Click(sender As Object, e As EventArgs) Handles btnCargarImagenPelicula4.Click
         If pfdCargaImagen.ShowDialog = DialogResult.OK Then
             pbImagenAñadidaPelicula4.ImageLocation = pfdCargaImagen.FileName.ToString
@@ -120,19 +120,22 @@ Public Class IngresarPeliculas
         Next i
 
     End Sub
-
+    'Evento click para agregar horario
     Private Sub BtnAgregarHorario2_Click(sender As Object, e As EventArgs) Handles btnAgregarHorario2.Click
+        'Si no se ha seleccionado un horario se saltara un error
         If (cmbAgregarHorario2.SelectedItem = "") Then
             MsgBox("Seleccione un horario para la película", MsgBoxStyle.Critical)
         Else
             lbHorariosAgregados2.Items.Add(cmbAgregarHorario2.SelectedItem)
         End If
 
+        'Este método evita que haya valores repetidos en el listbox
         Dim items(lbHorariosAgregados2.Items.Count - 1) As Object
         lbHorariosAgregados2.Items.CopyTo(items, 0)
         lbHorariosAgregados2.Items.Clear()
         lbHorariosAgregados2.Items.AddRange(items.AsEnumerable().Distinct().ToArray())
 
+        'Esta sección de aquí manda la información del listbox al método que lo almacena para devolverlo en otras pantallas
         Dim Size, i As Integer
         Size = Me.lbHorariosAgregados2.Items.Count - 1
         ReDim horario2(0 To Size)
@@ -141,19 +144,21 @@ Public Class IngresarPeliculas
             horario2(i) = Me.lbHorariosAgregados2.Items(i).ToString
         Next i
     End Sub
-
+    'Evento click para agregar horario
     Private Sub BtnAgregarHorario3_Click(sender As Object, e As EventArgs) Handles btnAgregarHorario3.Click
+        'Si no se ha seleccionado nada en el comboBox saltará un mensaje. 
         If (cmbAgregarHorario3.SelectedItem = "") Then
             MsgBox("Seleccione un horario para la película", MsgBoxStyle.Critical)
         Else
             lbHorariosAgregados3.Items.Add(cmbAgregarHorario3.SelectedItem)
         End If
-
+        'Este método evita que haya valores repetidos en el listbox
         Dim items(lbHorariosAgregados3.Items.Count - 1) As Object
         lbHorariosAgregados3.Items.CopyTo(items, 0)
         lbHorariosAgregados3.Items.Clear()
         lbHorariosAgregados3.Items.AddRange(items.AsEnumerable().Distinct().ToArray())
 
+        'Esta sección de aquí manda la información del listbox al método que lo almacena para devolverlo en otras pantallas
         Dim Size, i As Integer
         Size = Me.lbHorariosAgregados3.Items.Count - 1
         ReDim horario3(0 To Size)
@@ -162,19 +167,20 @@ Public Class IngresarPeliculas
             horario3(i) = Me.lbHorariosAgregados3.Items(i).ToString
         Next i
     End Sub
-
+    'Evento click para agregar horario
     Private Sub BtnAgregarHorario4_Click(sender As Object, e As EventArgs) Handles btnAgregarHorario4.Click
+        'Si no se ha seleccionado nada en el comboBox saltará un mensaje. 
         If (cmbAgregarHorario4.SelectedItem = "") Then
             MsgBox("Seleccione un horario para la película", MsgBoxStyle.Critical)
         Else
             lbHorariosAgregados4.Items.Add(cmbAgregarHorario4.SelectedItem)
         End If
-
+        'Este método evita que haya valores repetidos en el listbox
         Dim items(lbHorariosAgregados4.Items.Count - 1) As Object
         lbHorariosAgregados4.Items.CopyTo(items, 0)
         lbHorariosAgregados4.Items.Clear()
         lbHorariosAgregados4.Items.AddRange(items.AsEnumerable().Distinct().ToArray())
-
+        'Esta sección de aquí manda la información del listbox al método que lo almacena para devolverlo en otras pantallas
         Dim Size, i As Integer
         Size = Me.lbHorariosAgregados4.Items.Count - 1
         ReDim horario4(0 To Size)
@@ -184,13 +190,13 @@ Public Class IngresarPeliculas
         Next i
 
     End Sub
-
+    'Evento para cargar todos los datos
     Private Sub BtnFinalizarIngresoPeliculas_Click(sender As Object, e As EventArgs) Handles btnFinalizarIngresoPeliculas.Click
         Movies.Sala1(txtAñadirNombrePelicula1.Text, dtpAñadirFechaPelicula1.Value, ruta1, horario1)
         Movies.Sala2(txtAñadirNombrePelicula2.Text, dtpAñadirFechaPelicula2.Value, ruta2, horario2)
         Movies.Sala3(txtAñadirNombrePelicula3.Text, dtpAñadirFechaPelicula3.Value, ruta3, horario3)
         Movies.Sala4(txtAñadirNombrePelicula4.Text, dtpAñadirFechaPelicula4.Value, ruta4, horario4)
-
+        'Si que controla que todos los datos esten llenos
         If lbHorariosAgregados1.Items.Count = 0 Or txtAñadirNombrePelicula1.Text = "" Or ruta1 = "" Then
             MsgBox("Rellene los datos de la sala 1", MsgBoxStyle.Critical)
         ElseIf lbHorariosAgregados2.Items.Count = 0 Or txtAñadirNombrePelicula2.Text = "" Or ruta2 = "" Then
@@ -207,7 +213,7 @@ Public Class IngresarPeliculas
         End If
 
     End Sub
-
+    'validadcion de que se llene el nombre de la pelicula 
     Private Sub txtAñadirNombrePelicula1_Validating(sender As Object, e As CancelEventArgs) Handles txtAñadirNombrePelicula1.Validating
         If txtAñadirNombrePelicula1.Text = "" Then
             MsgBox("Rellene el campo nombre de la película 1", MsgBoxStyle.Critical)

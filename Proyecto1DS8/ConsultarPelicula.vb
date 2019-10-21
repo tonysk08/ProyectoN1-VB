@@ -8,21 +8,21 @@
         bienvenida.Show()
         Me.Hide()
     End Sub
-
+    'Ingreso de tanda de peliculas
     Private Sub IngresarPelículaYTandasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IngresarPelículaYTandasToolStripMenuItem.Click
         IngresarPeliculas.Show()
         Me.Hide()
     End Sub
-
+    'Consulta de peliculas
     Private Sub ConsultarPelículasYTandasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarPelículasYTandasToolStripMenuItem.Click
         MsgBox("Ya estás en esta ventana")
     End Sub
-
+    'Mostrar opcion de rebisar asientos
     Private Sub VerAsientosDisponiblesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerAsientosDisponiblesToolStripMenuItem.Click
         RevisarAsientos.Show()
         Me.Hide()
     End Sub
-
+    'Mostrar opcion de ver totales
     Private Sub VerTotalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerTotalesToolStripMenuItem.Click
         Totales.Show()
         Me.Hide()
@@ -34,19 +34,21 @@
         comprarBoleto.Show()
         Me.Hide()
     End Sub
-
+    'Evento click para comprar tickects en sala 2
     Private Sub BtnComprarTicketSala2_Click(sender As Object, e As EventArgs) Handles btnComprarTicketSala2.Click
         Movies.NumeroSala(2)
         comprarBoleto.Show()
         Me.Hide()
     End Sub
 
+    'Evento click para comprar tickects en sala 3
     Private Sub BtnComprarTicketSala3_Click(sender As Object, e As EventArgs) Handles btnComprarTicketSala3.Click
         Movies.NumeroSala(3)
         comprarBoleto.Show()
         Me.Hide()
     End Sub
 
+    'Evento click para comprar tickects en sala 4
     Private Sub BtnComprarTicketSala4_Click(sender As Object, e As EventArgs) Handles btnComprarTicketSala4.Click
         Movies.NumeroSala(4)
         comprarBoleto.Show()
