@@ -176,9 +176,9 @@ Partial Class RevisarAsientos
         Me.lblAsientos1.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAsientos1.Location = New System.Drawing.Point(247, 80)
         Me.lblAsientos1.Name = "lblAsientos1"
-        Me.lblAsientos1.Size = New System.Drawing.Size(37, 39)
+        Me.lblAsientos1.Size = New System.Drawing.Size(57, 39)
         Me.lblAsientos1.TabIndex = 12
-        Me.lblAsientos1.Text = "0"
+        Me.lblAsientos1.Text = "30"
         '
         'lblAsientos2
         '
@@ -186,9 +186,9 @@ Partial Class RevisarAsientos
         Me.lblAsientos2.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAsientos2.Location = New System.Drawing.Point(247, 178)
         Me.lblAsientos2.Name = "lblAsientos2"
-        Me.lblAsientos2.Size = New System.Drawing.Size(37, 39)
+        Me.lblAsientos2.Size = New System.Drawing.Size(57, 39)
         Me.lblAsientos2.TabIndex = 13
-        Me.lblAsientos2.Text = "0"
+        Me.lblAsientos2.Text = "30"
         '
         'lblAsientos3
         '
@@ -196,9 +196,9 @@ Partial Class RevisarAsientos
         Me.lblAsientos3.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAsientos3.Location = New System.Drawing.Point(247, 274)
         Me.lblAsientos3.Name = "lblAsientos3"
-        Me.lblAsientos3.Size = New System.Drawing.Size(37, 39)
+        Me.lblAsientos3.Size = New System.Drawing.Size(57, 39)
         Me.lblAsientos3.TabIndex = 14
-        Me.lblAsientos3.Text = "0"
+        Me.lblAsientos3.Text = "30"
         '
         'lblAsientos4
         '
@@ -206,9 +206,9 @@ Partial Class RevisarAsientos
         Me.lblAsientos4.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAsientos4.Location = New System.Drawing.Point(247, 362)
         Me.lblAsientos4.Name = "lblAsientos4"
-        Me.lblAsientos4.Size = New System.Drawing.Size(37, 39)
+        Me.lblAsientos4.Size = New System.Drawing.Size(57, 39)
         Me.lblAsientos4.TabIndex = 15
-        Me.lblAsientos4.Text = "0"
+        Me.lblAsientos4.Text = "30"
         '
         'RevisarAsientos
         '

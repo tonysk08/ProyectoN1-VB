@@ -40,17 +40,25 @@
 
         If Movies.SalaElegida = 1 Then
             movieName = Movies.Nombres1()
+
         ElseIf Movies.SalaElegida = 2 Then
             movieName = Movies.Nombres2()
+
         ElseIf Movies.SalaElegida = 3 Then
             movieName = Movies.Nombres3()
+
         ElseIf Movies.SalaElegida = 4 Then
             movieName = Movies.Nombres4()
+
         End If
 
         'CambiarHorarios()
         Factura.guardar(movieName, movieDate, movieDay, "Sala " & Movies.SalaElegida, costo, pagas, total)
         Factura.Show()
+
+        'dar asientos disponibles 
+        VentaEntradas.numAsiento(nudNumeroBoleto.Value)
+
     End Sub
 
     Sub CambiarHorarios()
@@ -93,6 +101,7 @@
             costo = nudNumeroBoleto.Value * 8
         End If
         txtCosto.Text = costo
+
     End Sub
 
     Function ValidacionesVarias() As Boolean
