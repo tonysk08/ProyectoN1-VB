@@ -9,7 +9,6 @@
 
         If SalaElegida = 1 Then
             fechaEstreno = Movies.Fechas1()
-
         ElseIf SalaElegida = 2 Then
             fechaEstreno = Movies.Fechas2()
         ElseIf SalaElegida = 3 Then
@@ -29,26 +28,21 @@
         Else
             Return "Error"
         End If
-
     End Function
-    Public Function numAsiento(asientos As Single) As Single
-        Dim SalaElegida As Integer = Movies.SalaElegida()
 
+    Public Sub numAsiento(asientos As Single)
+        Dim SalaElegida As Integer = Movies.SalaElegida()
 
         If SalaElegida = 1 Then
             asientos1 = asientos1 - asientos
-            Return asientos1
         ElseIf SalaElegida = 2 Then
             asientos2 = asientos2 - asientos
-            Return asientos2
         ElseIf SalaElegida = 3 Then
             asientos3 = asientos3 - asientos
-            Return asientos3
         Else
             asientos4 = asientos4 - asientos
-            Return asientos4
         End If
-    End Function
+    End Sub
 
     Public Function asiento1() As Single
         Return asientos1

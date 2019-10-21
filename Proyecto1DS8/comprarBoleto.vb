@@ -36,10 +36,7 @@
             If total < 0 Then
                 MsgBox("Monto insuficiente.")
             ElseIf pagas > costo Then
-                'MsgBox("Pago efectuado. Su cambio es " & total & "$")
             End If
-            'Validacion para el nombre
-
 
             If Movies.SalaElegida = 1 Then
                 movieName = Movies.Nombres1()
@@ -54,6 +51,7 @@
             'CambiarHorarios()
             Factura.guardar(movieName, movieDate, movieDay, "Sala " & Movies.SalaElegida, costo, pagas, total)
             Factura.Show()
+            VentaEntradas.numAsiento(nudNumeroBoleto.Value)
         End If
     End Sub
 
