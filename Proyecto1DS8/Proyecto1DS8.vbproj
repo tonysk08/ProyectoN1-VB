@@ -127,6 +127,12 @@
     <Compile Include="RevisarAsientos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Totales.Designer.vb">
+      <DependentUpon>Totales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Totales.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ConsultarPelicula.resx">
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RevisarAsientos.resx">
       <DependentUpon>RevisarAsientos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Totales.resx">
+      <DependentUpon>Totales.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

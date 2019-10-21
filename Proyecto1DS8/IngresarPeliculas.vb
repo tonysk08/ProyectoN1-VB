@@ -18,6 +18,16 @@ Public Class IngresarPeliculas
         MsgBox("Ya estás en esta ventana")
     End Sub
 
+
+    Private Sub VERTOTALESToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VERTOTALESToolStripMenuItem.Click
+        If cambioVentana = 1 Then
+            ConsultarPelicula.Show()
+            Me.Hide()
+        Else
+            MsgBox("No puedes salir de esta ventana hasta rellenear todos los campos")
+        End If
+    End Sub
+
     Private Sub ConsultarPelículasYTandasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarPelículasYTandasToolStripMenuItem.Click
         If cambioVentana = 1 Then
             ConsultarPelicula.Show()
@@ -200,6 +210,7 @@ Public Class IngresarPeliculas
             e.Cancel = True
         End If
     End Sub
+
 
     Private Sub txtAñadirNombrePelicula2_Validating(sender As Object, e As CancelEventArgs) Handles txtAñadirNombrePelicula2.Validating
         If txtAñadirNombrePelicula2.Text = "" Then
