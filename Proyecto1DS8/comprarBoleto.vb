@@ -96,17 +96,24 @@
     End Sub
 
     Function ValidacionesVarias() As Boolean
-
-        Return True
+        Dim paso As Boolean = False
+        If (nudNumeroBoleto.Value <> 0) Then
+            paso = True
+        End If
+        Return paso
     End Function
 
     Private Sub btnProcesar_Click(sender As Object, e As EventArgs) Handles btnProcesar.Click
         Call validarEdad()
-        btnPagar.Show()
-        lblPagas.Show()
-        txtPagas.Show()
-        txtCosto.Show()
-        lblCosto.Show()
+        If (ValidacionesVarias() And nudEdad.Value <> 0) Then
+            btnPagar.Show()
+            lblPagas.Show()
+            txtPagas.Show()
+            txtCosto.Show()
+            lblCosto.Show()
+        Else
+            MsgBox("Rellene todos los datos solicitados")
+        End If
     End Sub
 
     Private Sub ComprarBoleto_Load(sender As Object, e As EventArgs) Handles MyBase.Load
