@@ -53,7 +53,6 @@ Partial Class comprarBoleto
         Me.ConsultarPelículasYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAsientosDisponiblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerTotalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.gbdatosEntrada.SuspendLayout()
         CType(Me.nudMayores, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudMenores, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,10 +65,6 @@ Partial Class comprarBoleto
         'gbdatosEntrada
         '
         Me.gbdatosEntrada.BackColor = System.Drawing.Color.SkyBlue
-        Me.gbdatosEntrada.Controls.Add(Me.Label3)
-        Me.gbdatosEntrada.Controls.Add(Me.Label2)
-        Me.gbdatosEntrada.Controls.Add(Me.nudMayores)
-        Me.gbdatosEntrada.Controls.Add(Me.nudMenores)
         Me.gbdatosEntrada.Controls.Add(Me.lblPeliculaEstrenoSiNo)
         Me.gbdatosEntrada.Controls.Add(Me.lblPeliculaEstreno)
         Me.gbdatosEntrada.Controls.Add(Me.txtNumeroSala)
@@ -413,15 +408,6 @@ Partial Class comprarBoleto
         Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(96, 25)
         Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(425, 62)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(69, 20)
-        Me.Label3.TabIndex = 56
-        Me.Label3.Text = "Mayores"
-        '
         'comprarBoleto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -475,8 +461,4 @@ Partial Class comprarBoleto
     Friend WithEvents VerTotalesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents lblPeliculaEstreno As Label
     Friend WithEvents lblPeliculaEstrenoSiNo As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents nudMayores As NumericUpDown
-    Friend WithEvents nudMenores As NumericUpDown
-    Friend WithEvents Label3 As Label
 End Class

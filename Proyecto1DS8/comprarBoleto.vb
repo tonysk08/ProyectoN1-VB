@@ -54,7 +54,6 @@
             'CambiarHorarios()
             Factura.guardar(movieName, movieDate, movieDay, "Sala " & Movies.SalaElegida, costo, pagas, total)
             Factura.Show()
-        End If
     End Sub
 
     Sub CambiarHorarios()
@@ -89,6 +88,7 @@
         End If
 
         txtCosto.Text = costo
+
     End Sub
 
     Function ValidacionesVarias() As Boolean
@@ -151,4 +151,5 @@
         txtAsiento.Show()
         lbHorarioElegido.SelectedIndex = 0
     End Sub
+
 End Class

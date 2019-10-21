@@ -202,7 +202,6 @@ Public Class IngresarPeliculas
         End If
     End Sub
 
-
     Private Sub txtAñadirNombrePelicula2_Validating(sender As Object, e As CancelEventArgs) Handles txtAñadirNombrePelicula2.Validating
         If txtAñadirNombrePelicula2.Text = "" Then
             MsgBox("Rellene el campo nombre de la película 2", MsgBoxStyle.Critical)
