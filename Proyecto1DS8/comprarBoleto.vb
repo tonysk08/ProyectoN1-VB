@@ -20,45 +20,39 @@
     End Sub
 
     Private Sub btnPagar_Click(sender As Object, e As EventArgs) Handles btnPagar.Click
-        Dim costo, pagas As Double
-        Dim total As Double
-        Dim movieName, movieDate, movieHour, movieDay As String
-        movieName = ""
-        movieHour = lbHorarioElegido.SelectedItem.ToString()
-        movieDate = dtpFechaEntrada.Value.ToString("dd/MM/yyyy") & " " & movieHour
-        movieDay = dtpFechaEntrada.Value.ToString("dddd")
-        costo = txtCosto.Text
-        pagas = txtPagas.Text
-        total = pagas - costo
-        If total < 0 Then
-            MsgBox("Monto insuficiente.")
-        ElseIf pagas > costo Then
-            MsgBox("Pago efectuado." & total)
+        If (txtPagas.Text = "0") Then
+            MsgBox("Su pago no puede ser 0")
+        Else
+            Dim costo, pagas As Double
+            Dim total As Double
+            Dim movieName, movieDate, movieHour, movieDay As String
+            movieName = ""
+            movieHour = lbHorarioElegido.SelectedItem.ToString()
+            movieDate = dtpFechaEntrada.Value.ToString("dd/MM/yyyy") & " " & movieHour
+            movieDay = dtpFechaEntrada.Value.ToString("dddd")
+            costo = txtCosto.Text
+            pagas = txtPagas.Text
+            total = pagas - costo
+            If total < 0 Then
+                MsgBox("Monto insuficiente.")
+            ElseIf pagas > costo Then
+            End If
+
+            If Movies.SalaElegida = 1 Then
+                movieName = Movies.Nombres1()
+            ElseIf Movies.SalaElegida = 2 Then
+                movieName = Movies.Nombres2()
+            ElseIf Movies.SalaElegida = 3 Then
+                movieName = Movies.Nombres3()
+            ElseIf Movies.SalaElegida = 4 Then
+                movieName = Movies.Nombres4()
+            End If
+
+            'CambiarHorarios()
+            Factura.guardar(movieName, movieDate, movieDay, "Sala " & Movies.SalaElegida, costo, pagas, total)
+            Factura.Show()
+            VentaEntradas.numAsiento(nudNumeroBoleto.Value)
         End If
-        'Validacion para el nombre
-
-
-        If Movies.SalaElegida = 1 Then
-            movieName = Movies.Nombres1()
-
-        ElseIf Movies.SalaElegida = 2 Then
-            movieName = Movies.Nombres2()
-
-        ElseIf Movies.SalaElegida = 3 Then
-            movieName = Movies.Nombres3()
-
-        ElseIf Movies.SalaElegida = 4 Then
-            movieName = Movies.Nombres4()
-
-        End If
-
-        'CambiarHorarios()
-        Factura.guardar(movieName, movieDate, movieDay, "Sala " & Movies.SalaElegida, costo, pagas, total)
-        Factura.Show()
-
-        'dar asientos disponibles 
-        VentaEntradas.numAsiento(nudNumeroBoleto.Value)
-
     End Sub
 
     Sub CambiarHorarios()
@@ -83,23 +77,15 @@
 
     'Valida la edad
     Sub validarEdad()
-        Dim costo As Double
-        Dim seleccion As String
-        Dim edad As Integer = nudEdad.Value
-        seleccion = Movies.SalaElegida
-        If seleccion = 1 Or seleccion = 2 Or seleccion = 4 Then
-            If edad >= 1 And edad <= 12 Then
-                costo = nudNumeroBoleto.Value * 2
-            ElseIf seleccion = 1 Or seleccion = 2 Or seleccion = 4 Then
-                If edad > 12 Then
-                    costo = nudNumeroBoleto.Value * 4
-                End If
-            End If
-        ElseIf seleccion = 3 And edad >= 1 And edad <= 12 Then
-            costo = nudNumeroBoleto.Value * 5
-        ElseIf seleccion = 3 And edad > 12 Then
-            costo = nudNumeroBoleto.Value * 8
+        Dim costo As Double = 0
+
+        If (nudMayores.Value + nudMenores.Value = nudNumeroBoleto.Value) Then
+            costo = costo + (nudMayores.Value * 4)
+            costo = costo + (nudMenores.Value * 2)
+        Else
+            MsgBox("Verifique que la cantidad de boletos coincida con el numero de boleto para menores y mayores")
         End If
+
         txtCosto.Text = costo
 
     End Sub
@@ -114,7 +100,7 @@
 
     Private Sub btnProcesar_Click(sender As Object, e As EventArgs) Handles btnProcesar.Click
         Call validarEdad()
-        If (ValidacionesVarias() And nudEdad.Value <> 0) Then
+        If (ValidacionesVarias() And nudEdad.Value <> 0 And txtCosto.Text <> 0) Then
             btnPagar.Show()
             lblPagas.Show()
             txtPagas.Show()
@@ -165,12 +151,4 @@
         lbHorarioElegido.SelectedIndex = 0
     End Sub
 
-    Private Sub CbPaseCortesia_CheckedChanged(sender As Object, e As EventArgs) Handles cbPaseCortesia.CheckedChanged
-        If cbPaseCortesia.Checked Then
-            If VentaEntradas.Estreno = "Estreno" Then
-                MsgBox("No puede usar el pase de cortesía en una película en estreno", MsgBoxStyle.Critical)
-                cbPaseCortesia.CheckState = CheckState.Unchecked
-            End If
-        End If
-    End Sub
 End Class

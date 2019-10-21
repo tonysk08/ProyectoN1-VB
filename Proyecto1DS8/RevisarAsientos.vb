@@ -11,7 +11,7 @@
 
     Private Sub ConsultarPelículasYTandasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarPelículasYTandasToolStripMenuItem.Click
         ConsultarPelicula.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 
     Private Sub VerAsientosDisponiblesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerAsientosDisponiblesToolStripMenuItem.Click
@@ -24,11 +24,9 @@
     End Sub
 
     Private Sub RevisarAsientos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
         lblAsientos1.Text = VentaEntradas.asiento1
         lblAsientos2.Text = VentaEntradas.asiento2
         lblAsientos3.Text = VentaEntradas.asiento3
         lblAsientos4.Text = VentaEntradas.asiento4
-
     End Sub
 End Class

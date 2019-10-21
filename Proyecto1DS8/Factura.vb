@@ -8,9 +8,9 @@
         lblMostrarFecha.Text = fecha
         lblMostrarDiaCorrespondiente.Text = dia
         lblMostrarNumSala.Text = sala
-        lblMostrarMontoPagar.Text = monto
-        lblMostrarPagoRealizado.Text = pago
-        lblMostrarDevolucion.Text = devolucion
+        lblMostrarMontoPagar.Text = monto & "$"
+        lblMostrarPagoRealizado.Text = pago & "$"
+        lblMostrarDevolucion.Text = devolucion & "$"
     End Function
 
     Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
