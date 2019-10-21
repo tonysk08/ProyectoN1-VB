@@ -159,3 +159,21 @@ C:\Users\zarmi\Source\Repos\ProyectoN1-VB\Proyecto1DS8\obj\Debug\Proyecto1DS8.vb
 C:\Users\zarmi\Source\Repos\ProyectoN1-VB\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
 C:\Users\zarmi\Source\Repos\ProyectoN1-VB\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
 C:\Users\zarmi\Source\Repos\ProyectoN1-VB\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe.config
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\bin\Debug\Proyecto1DS8.exe
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\bin\Debug\Proyecto1DS8.pdb
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\bin\Debug\Proyecto1DS8.xml
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbprojAssemblyReference.cache
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.ConsultarPelicula.resources
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.Factura.resources
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.IngresarPeliculas.resources
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.bienvenida.resources
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.comprarBoleto.resources
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.Resources.resources
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.RevisarAsientos.resources
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.Totales.resources
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.GenerateResource.cache
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.vbproj.CoreCompileInputs.cache
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.exe
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.xml
+E:\Usuarios\Maycol Cuervo\Documentos\Carpeta U\Desarrollo VIII\Proyecto\Proyecto1DS8\obj\Debug\Proyecto1DS8.pdb
