@@ -1,4 +1,6 @@
 ﻿Public Class comprarBoleto
+    Private montoGanado As Double
+    Private menorEdad, mayorEdad As Single
     Private Sub BienvenidaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BienvenidaToolStripMenuItem.Click
         bienvenida.Show()
         Me.Hide()
@@ -51,7 +53,16 @@
             'CambiarHorarios()
             Factura.guardar(movieName, movieDate, movieDay, "Sala " & Movies.SalaElegida, costo, pagas, total)
             Factura.Show()
+
+            'Numero de asientos
             VentaEntradas.numAsiento(nudNumeroBoleto.Value)
+
+            'Numero de edad
+            mayorEdad = nudMayores.Value
+            menorEdad = nudMenores.Value
+
+            'Monto generado 
+            montoGanado = montoGanado + total
         End If
     End Sub
 
@@ -78,7 +89,6 @@
     'Valida la edad
     Sub validarEdad()
         Dim costo As Double = 0
-
         If (nudMayores.Value + nudMenores.Value = nudNumeroBoleto.Value) Then
             costo = costo + (nudMayores.Value * 4)
             costo = costo + (nudMenores.Value * 2)
@@ -150,5 +160,17 @@
         txtAsiento.Show()
         lbHorarioElegido.SelectedIndex = 0
     End Sub
+
+    Public Function monto() As Double
+        Return montoGanado
+    End Function
+
+    Public Function mayoresEdad() As Single
+        Return mayorEdad
+    End Function
+
+    Public Function menoresEdad() As Single
+        Return menorEdad
+    End Function
 
 End Class
