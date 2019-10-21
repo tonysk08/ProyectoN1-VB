@@ -50,7 +50,7 @@
 
 
             'Monto generado 
-            montoGanado = montoGanado + total
+            montoGanado = montoGanado + costo
             AlmacenandoTotales.returnMontoTotal(montoGanado)
 
             'Aquí se manda el nombre de la película y el total de boletos para ser usado en la Factura y en los totales. Se almacena en la variable movieName y se llama desde el Módulo Movies y la función Sala Elegida
@@ -78,6 +78,12 @@
             'Numero de edad
             AlmacenandoTotales.returnMayorEdad(nudMayores.Value)
             AlmacenandoTotales.returnMenorEdad(nudMenores.Value)
+
+            If ckbPaseCortesia.Checked Then
+                AlmacenandoTotales.returnPaseCortesiaSi(nudNumeroBoleto.Value)
+            Else
+                AlmacenandoTotales.returnPaseCortesiaNo(nudNumeroBoleto.Value)
+            End If
 
 
         End If
@@ -140,6 +146,16 @@
             lblCosto.Show()
         Else
             MsgBox("Rellene todos los datos solicitados")
+        End If
+    End Sub
+
+    Private Sub CkbPaseCortesia_CheckedChanged(sender As Object, e As EventArgs) Handles ckbPaseCortesia.CheckedChanged
+        If ckbPaseCortesia.Checked Then
+            If VentaEntradas.Estreno = "Si" Then
+                MsgBox("El pase de cortesía no aplica en películas de estreno")
+                ckbPaseCortesia.CheckState = CheckState.Unchecked
+            ElseIf VentaEntradas.Estreno = "No" Then
+            End If
         End If
     End Sub
 

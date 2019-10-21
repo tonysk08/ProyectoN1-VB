@@ -52,6 +52,7 @@ Partial Class comprarBoleto
         Me.ConsultarPelículasYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAsientosDisponiblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerTotalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ckbPaseCortesia = New System.Windows.Forms.CheckBox()
         Me.gbdatosEntrada.SuspendLayout()
         CType(Me.nudMenores, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudMayores, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,6 +65,7 @@ Partial Class comprarBoleto
         'gbdatosEntrada
         '
         Me.gbdatosEntrada.BackColor = System.Drawing.Color.SkyBlue
+        Me.gbdatosEntrada.Controls.Add(Me.ckbPaseCortesia)
         Me.gbdatosEntrada.Controls.Add(Me.Label3)
         Me.gbdatosEntrada.Controls.Add(Me.Label2)
         Me.gbdatosEntrada.Controls.Add(Me.nudMenores)
@@ -135,7 +137,7 @@ Partial Class comprarBoleto
         '
         Me.lblPeliculaEstrenoSiNo.AutoSize = True
         Me.lblPeliculaEstrenoSiNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPeliculaEstrenoSiNo.Location = New System.Drawing.Point(271, 238)
+        Me.lblPeliculaEstrenoSiNo.Location = New System.Drawing.Point(272, 238)
         Me.lblPeliculaEstrenoSiNo.Name = "lblPeliculaEstrenoSiNo"
         Me.lblPeliculaEstrenoSiNo.Size = New System.Drawing.Size(52, 17)
         Me.lblPeliculaEstrenoSiNo.TabIndex = 52
@@ -388,6 +390,17 @@ Partial Class comprarBoleto
         Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(96, 25)
         Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
         '
+        'ckbPaseCortesia
+        '
+        Me.ckbPaseCortesia.AutoSize = True
+        Me.ckbPaseCortesia.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ckbPaseCortesia.Location = New System.Drawing.Point(266, 276)
+        Me.ckbPaseCortesia.Name = "ckbPaseCortesia"
+        Me.ckbPaseCortesia.Size = New System.Drawing.Size(135, 21)
+        Me.ckbPaseCortesia.TabIndex = 57
+        Me.ckbPaseCortesia.Text = "Pase de Cortesía"
+        Me.ckbPaseCortesia.UseVisualStyleBackColor = True
+        '
         'comprarBoleto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -443,4 +456,5 @@ Partial Class comprarBoleto
     Friend WithEvents nudMayores As NumericUpDown
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents ckbPaseCortesia As CheckBox
 End Class

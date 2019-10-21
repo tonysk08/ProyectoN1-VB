@@ -1,6 +1,6 @@
 ﻿Module AlmacenandoTotales
     Private montoTotal = 0, totalSala1 = 0, totalSala2 = 0, totalSala3 = 0, totalSala4 = 0
-    Private mayorEdad = 0, menorEdad = 0
+    Private mayorEdad = 0, menorEdad = 0, cantidadPaseCortesiaSi = 0, cantidadPaseCortesiaNo = 0
 
     Public Function returnMayorEdad(ByRef numeroMayores As Integer) As Integer
         mayorEdad = mayorEdad + numeroMayores
@@ -35,5 +35,15 @@
     Public Function returnMontoTotal(ByRef numeroMontoTotal As Single) As Single
         montoTotal = montoTotal + numeroMontoTotal
         Return montoTotal
+    End Function
+
+    Public Function returnPaseCortesiaSi(ByRef cantidadPersonas As Integer) As Integer
+        cantidadPaseCortesiaSi = cantidadPaseCortesiaSi + cantidadPersonas
+        Return cantidadPersonas
+    End Function
+
+    Public Function returnPaseCortesiaNo(ByRef cantidadPersonas As Integer) As Integer
+        cantidadPaseCortesiaNo = cantidadPaseCortesiaNo + cantidadPersonas
+        Return cantidadPersonas
     End Function
 End Module
