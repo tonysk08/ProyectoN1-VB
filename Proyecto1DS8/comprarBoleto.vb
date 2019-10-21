@@ -79,6 +79,12 @@
             AlmacenandoTotales.returnMayorEdad(nudMayores.Value)
             AlmacenandoTotales.returnMenorEdad(nudMenores.Value)
 
+            If ckbPaseCortesia.Checked Then
+                AlmacenandoTotales.returnPaseCortesiaSi(nudNumeroBoleto.Value)
+            Else
+                AlmacenandoTotales.returnPaseCortesiaNo(nudNumeroBoleto.Value)
+            End If
+
 
         End If
     End Sub
