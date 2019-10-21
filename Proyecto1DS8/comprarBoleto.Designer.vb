@@ -23,6 +23,7 @@ Partial Class comprarBoleto
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.gbdatosEntrada = New System.Windows.Forms.GroupBox()
+        Me.lblPeliculaEstreno = New System.Windows.Forms.Label()
         Me.txtNumeroSala = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblPagas = New System.Windows.Forms.Label()
@@ -48,6 +49,7 @@ Partial Class comprarBoleto
         Me.ConsultarPelículasYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAsientosDisponiblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerTotalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.lblPeliculaEstrenoSiNo = New System.Windows.Forms.Label()
         Me.gbdatosEntrada.SuspendLayout()
         CType(Me.pbCartelera, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudNumeroBoleto, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -58,6 +60,8 @@ Partial Class comprarBoleto
         'gbdatosEntrada
         '
         Me.gbdatosEntrada.BackColor = System.Drawing.Color.SkyBlue
+        Me.gbdatosEntrada.Controls.Add(Me.lblPeliculaEstrenoSiNo)
+        Me.gbdatosEntrada.Controls.Add(Me.lblPeliculaEstreno)
         Me.gbdatosEntrada.Controls.Add(Me.txtNumeroSala)
         Me.gbdatosEntrada.Controls.Add(Me.Label1)
         Me.gbdatosEntrada.Controls.Add(Me.lblPagas)
@@ -82,10 +86,21 @@ Partial Class comprarBoleto
         Me.gbdatosEntrada.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.gbdatosEntrada.Name = "gbdatosEntrada"
         Me.gbdatosEntrada.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbdatosEntrada.Size = New System.Drawing.Size(1129, 474)
+        Me.gbdatosEntrada.Size = New System.Drawing.Size(1129, 521)
         Me.gbdatosEntrada.TabIndex = 0
         Me.gbdatosEntrada.TabStop = False
         Me.gbdatosEntrada.Text = "Datos de entrada"
+        '
+        'lblPeliculaEstreno
+        '
+        Me.lblPeliculaEstreno.AutoSize = True
+        Me.lblPeliculaEstreno.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPeliculaEstreno.Location = New System.Drawing.Point(41, 237)
+        Me.lblPeliculaEstreno.Name = "lblPeliculaEstreno"
+        Me.lblPeliculaEstreno.Size = New System.Drawing.Size(164, 20)
+        Me.lblPeliculaEstreno.TabIndex = 51
+        Me.lblPeliculaEstreno.Text = "Película en Estreno: "
+        Me.lblPeliculaEstreno.Visible = False
         '
         'txtNumeroSala
         '
@@ -110,7 +125,7 @@ Partial Class comprarBoleto
         '
         Me.lblPagas.AutoSize = True
         Me.lblPagas.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPagas.Location = New System.Drawing.Point(43, 318)
+        Me.lblPagas.Location = New System.Drawing.Point(41, 388)
         Me.lblPagas.Name = "lblPagas"
         Me.lblPagas.Size = New System.Drawing.Size(56, 20)
         Me.lblPagas.TabIndex = 48
@@ -120,7 +135,7 @@ Partial Class comprarBoleto
         'txtPagas
         '
         Me.txtPagas.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPagas.Location = New System.Drawing.Point(473, 315)
+        Me.txtPagas.Location = New System.Drawing.Point(465, 385)
         Me.txtPagas.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPagas.Name = "txtPagas"
         Me.txtPagas.Size = New System.Drawing.Size(139, 26)
@@ -132,7 +147,7 @@ Partial Class comprarBoleto
         Me.btnPagar.BackColor = System.Drawing.Color.ForestGreen
         Me.btnPagar.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPagar.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnPagar.Location = New System.Drawing.Point(476, 411)
+        Me.btnPagar.Location = New System.Drawing.Point(470, 457)
         Me.btnPagar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnPagar.Name = "btnPagar"
         Me.btnPagar.Size = New System.Drawing.Size(111, 39)
@@ -145,7 +160,7 @@ Partial Class comprarBoleto
         '
         Me.lblAsiento.AutoSize = True
         Me.lblAsiento.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAsiento.Location = New System.Drawing.Point(41, 242)
+        Me.lblAsiento.Location = New System.Drawing.Point(41, 304)
         Me.lblAsiento.Name = "lblAsiento"
         Me.lblAsiento.Size = New System.Drawing.Size(74, 20)
         Me.lblAsiento.TabIndex = 45
@@ -155,7 +170,7 @@ Partial Class comprarBoleto
         'txtAsiento
         '
         Me.txtAsiento.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAsiento.Location = New System.Drawing.Point(275, 239)
+        Me.txtAsiento.Location = New System.Drawing.Point(275, 301)
         Me.txtAsiento.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAsiento.Name = "txtAsiento"
         Me.txtAsiento.ReadOnly = True
@@ -166,7 +181,7 @@ Partial Class comprarBoleto
         'txtCosto
         '
         Me.txtCosto.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCosto.Location = New System.Drawing.Point(473, 276)
+        Me.txtCosto.Location = New System.Drawing.Point(465, 346)
         Me.txtCosto.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtCosto.Name = "txtCosto"
         Me.txtCosto.ReadOnly = True
@@ -178,7 +193,7 @@ Partial Class comprarBoleto
         '
         Me.lblCosto.AutoSize = True
         Me.lblCosto.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCosto.Location = New System.Drawing.Point(43, 279)
+        Me.lblCosto.Location = New System.Drawing.Point(41, 349)
         Me.lblCosto.Name = "lblCosto"
         Me.lblCosto.Size = New System.Drawing.Size(53, 20)
         Me.lblCosto.TabIndex = 42
@@ -213,7 +228,7 @@ Partial Class comprarBoleto
         Me.btnProcesar.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.btnProcesar.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnProcesar.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnProcesar.Location = New System.Drawing.Point(291, 411)
+        Me.btnProcesar.Location = New System.Drawing.Point(285, 457)
         Me.btnProcesar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnProcesar.Name = "btnProcesar"
         Me.btnProcesar.Size = New System.Drawing.Size(147, 39)
@@ -342,12 +357,23 @@ Partial Class comprarBoleto
         Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(119, 32)
         Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
         '
+        'lblPeliculaEstrenoSiNo
+        '
+        Me.lblPeliculaEstrenoSiNo.AutoSize = True
+        Me.lblPeliculaEstrenoSiNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPeliculaEstrenoSiNo.Location = New System.Drawing.Point(271, 237)
+        Me.lblPeliculaEstrenoSiNo.Name = "lblPeliculaEstrenoSiNo"
+        Me.lblPeliculaEstrenoSiNo.Size = New System.Drawing.Size(76, 25)
+        Me.lblPeliculaEstrenoSiNo.TabIndex = 52
+        Me.lblPeliculaEstrenoSiNo.Text = "Estado"
+        Me.lblPeliculaEstrenoSiNo.Visible = False
+        '
         'comprarBoleto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DeepSkyBlue
-        Me.ClientSize = New System.Drawing.Size(1156, 540)
+        Me.ClientSize = New System.Drawing.Size(1156, 585)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.gbdatosEntrada)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -391,4 +417,6 @@ Partial Class comprarBoleto
     Friend WithEvents Label1 As Label
     Friend WithEvents txtNumeroSala As TextBox
     Friend WithEvents VerTotalesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents lblPeliculaEstreno As Label
+    Friend WithEvents lblPeliculaEstrenoSiNo As Label
 End Class

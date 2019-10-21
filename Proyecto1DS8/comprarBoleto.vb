@@ -110,6 +110,7 @@
         'Inhabilita la opcion de agregar pelicula
         DisableAddMovies.IngresarPeliculasEnable(True)
         dtpFechaEntrada.Value = DateTime.Now()
+        lblPeliculaEstrenoSiNo.Text = VentaEntradas.Estreno()
 
         txtNumeroSala.Text = "Sala " & sala
 
@@ -141,4 +142,5 @@
         dtpFechaEntrada.Show()
         txtAsiento.Show()
     End Sub
+
 End Class
