@@ -1,6 +1,9 @@
 ﻿Public Class ConsultarPelicula
 
+    'Variables que serán usadas en la clase ConsultarPelicula
     Dim i1, i2, i3, i4 As Integer
+
+    'Redireccionamiento del MenuStrip
     Private Sub BienvenidaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BienvenidaToolStripMenuItem.Click
         bienvenida.Show()
         Me.Hide()
@@ -20,6 +23,12 @@
         Me.Hide()
     End Sub
 
+    Private Sub VerTotalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerTotalesToolStripMenuItem.Click
+        Totales.Show()
+        Me.Hide()
+    End Sub
+
+    'Aquí se controlan los botones para mandar cargar la información pertinente en el formulario compraBoleto
     Private Sub BtnComprarTicketSala1_Click(sender As Object, e As EventArgs) Handles btnComprarTicketSala1.Click
         Movies.NumeroSala(1)
         comprarBoleto.Show()
@@ -44,16 +53,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub VerTotalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerTotalesToolStripMenuItem.Click
-        Totales.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub GroupBox1_Click(sender As Object, e As EventArgs) Handles gbSala1.Click
-        bienvenida.Show()
-        Me.Hide()
-    End Sub
-
+    'En la carga del formulario se carga toda la cartelera. Fotos, Nombres y horario
     Private Sub ConsultarPelicula_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Carga de fotos de las películas desde el módulo Movies
         pbConsultarImagenPeliculaSala1.ImageLocation = Movies.Fotos1

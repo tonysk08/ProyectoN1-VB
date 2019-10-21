@@ -60,8 +60,8 @@ Partial Class Totales
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BienvenidaToolStripMenuItem, Me.IngresarPelículaYTandasToolStripMenuItem, Me.ConsultarPelículasYTandasToolStripMenuItem, Me.VerAsientosDisponiblesToolStripMenuItem, Me.VerTotalesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1067, 29)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1423, 29)
         Me.MenuStrip1.TabIndex = 4
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -103,40 +103,36 @@ Partial Class Totales
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(40, 33)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(53, 41)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 13)
+        Me.Label1.Size = New System.Drawing.Size(97, 16)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Total de sala 1"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(40, 71)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(53, 87)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(77, 13)
+        Me.Label2.Size = New System.Drawing.Size(97, 16)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Total de sala 2"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(40, 153)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(53, 188)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(77, 13)
+        Me.Label3.Size = New System.Drawing.Size(97, 16)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "Total de sala 4"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(40, 113)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(53, 139)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(77, 13)
+        Me.Label4.Size = New System.Drawing.Size(97, 16)
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Total de sala 3"
         '
@@ -150,9 +146,11 @@ Partial Class Totales
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Location = New System.Drawing.Point(37, 144)
+        Me.GroupBox1.Location = New System.Drawing.Point(49, 177)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(434, 194)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(579, 239)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Total ingresado por sala"
@@ -160,40 +158,36 @@ Partial Class Totales
         'lblTotalSala4
         '
         Me.lblTotalSala4.AutoSize = True
-        Me.lblTotalSala4.Location = New System.Drawing.Point(188, 153)
-        Me.lblTotalSala4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalSala4.Location = New System.Drawing.Point(251, 188)
         Me.lblTotalSala4.Name = "lblTotalSala4"
-        Me.lblTotalSala4.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalSala4.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalSala4.TabIndex = 12
         Me.lblTotalSala4.Text = "0"
         '
         'lblTotalSala3
         '
         Me.lblTotalSala3.AutoSize = True
-        Me.lblTotalSala3.Location = New System.Drawing.Point(188, 113)
-        Me.lblTotalSala3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalSala3.Location = New System.Drawing.Point(251, 139)
         Me.lblTotalSala3.Name = "lblTotalSala3"
-        Me.lblTotalSala3.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalSala3.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalSala3.TabIndex = 11
         Me.lblTotalSala3.Text = "0"
         '
         'lblTotalSala2
         '
         Me.lblTotalSala2.AutoSize = True
-        Me.lblTotalSala2.Location = New System.Drawing.Point(188, 71)
-        Me.lblTotalSala2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalSala2.Location = New System.Drawing.Point(251, 87)
         Me.lblTotalSala2.Name = "lblTotalSala2"
-        Me.lblTotalSala2.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalSala2.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalSala2.TabIndex = 10
         Me.lblTotalSala2.Text = "0"
         '
         'lblTotalSala1
         '
         Me.lblTotalSala1.AutoSize = True
-        Me.lblTotalSala1.Location = New System.Drawing.Point(188, 33)
-        Me.lblTotalSala1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalSala1.Location = New System.Drawing.Point(251, 41)
         Me.lblTotalSala1.Name = "lblTotalSala1"
-        Me.lblTotalSala1.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalSala1.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalSala1.TabIndex = 9
         Me.lblTotalSala1.Text = "0"
         '
@@ -209,9 +203,11 @@ Partial Class Totales
         Me.GroupBox2.Controls.Add(Me.Label6)
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Controls.Add(Me.Label8)
-        Me.GroupBox2.Location = New System.Drawing.Point(525, 144)
+        Me.GroupBox2.Location = New System.Drawing.Point(700, 177)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(434, 194)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Size = New System.Drawing.Size(579, 239)
         Me.GroupBox2.TabIndex = 10
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Totales"
@@ -219,112 +215,102 @@ Partial Class Totales
         'lblTotalRecaudado
         '
         Me.lblTotalRecaudado.AutoSize = True
-        Me.lblTotalRecaudado.Location = New System.Drawing.Point(289, 163)
-        Me.lblTotalRecaudado.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalRecaudado.Location = New System.Drawing.Point(385, 201)
         Me.lblTotalRecaudado.Name = "lblTotalRecaudado"
-        Me.lblTotalRecaudado.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalRecaudado.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalRecaudado.TabIndex = 17
         Me.lblTotalRecaudado.Text = "0"
         '
         'lblTotalAdulto
         '
         Me.lblTotalAdulto.AutoSize = True
-        Me.lblTotalAdulto.Location = New System.Drawing.Point(289, 134)
-        Me.lblTotalAdulto.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalAdulto.Location = New System.Drawing.Point(385, 165)
         Me.lblTotalAdulto.Name = "lblTotalAdulto"
-        Me.lblTotalAdulto.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalAdulto.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalAdulto.TabIndex = 16
         Me.lblTotalAdulto.Text = "0"
         '
         'lblTotalNinos
         '
         Me.lblTotalNinos.AutoSize = True
-        Me.lblTotalNinos.Location = New System.Drawing.Point(289, 101)
-        Me.lblTotalNinos.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalNinos.Location = New System.Drawing.Point(385, 124)
         Me.lblTotalNinos.Name = "lblTotalNinos"
-        Me.lblTotalNinos.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalNinos.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalNinos.TabIndex = 15
         Me.lblTotalNinos.Text = "0"
         '
         'lblTotalDineroCortesia
         '
         Me.lblTotalDineroCortesia.AutoSize = True
-        Me.lblTotalDineroCortesia.Location = New System.Drawing.Point(289, 71)
-        Me.lblTotalDineroCortesia.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalDineroCortesia.Location = New System.Drawing.Point(385, 87)
         Me.lblTotalDineroCortesia.Name = "lblTotalDineroCortesia"
-        Me.lblTotalDineroCortesia.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalDineroCortesia.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalDineroCortesia.TabIndex = 14
         Me.lblTotalDineroCortesia.Text = "0"
         '
         'lblTotalCortesia
         '
         Me.lblTotalCortesia.AutoSize = True
-        Me.lblTotalCortesia.Location = New System.Drawing.Point(289, 33)
-        Me.lblTotalCortesia.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTotalCortesia.Location = New System.Drawing.Point(385, 41)
         Me.lblTotalCortesia.Name = "lblTotalCortesia"
-        Me.lblTotalCortesia.Size = New System.Drawing.Size(13, 13)
+        Me.lblTotalCortesia.Size = New System.Drawing.Size(15, 16)
         Me.lblTotalCortesia.TabIndex = 13
         Me.lblTotalCortesia.Text = "0"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(40, 134)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(53, 165)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(83, 13)
+        Me.Label9.Size = New System.Drawing.Size(105, 16)
         Me.Label9.TabIndex = 9
         Me.Label9.Text = "Total de adultos"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(40, 71)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Location = New System.Drawing.Point(53, 87)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(203, 13)
+        Me.Label5.Size = New System.Drawing.Size(258, 16)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Total de dinero no ingresado por cortesia "
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(40, 101)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Location = New System.Drawing.Point(53, 124)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(77, 13)
+        Me.Label6.Size = New System.Drawing.Size(96, 16)
         Me.Label6.TabIndex = 8
         Me.Label6.Text = "Total de niños "
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(40, 33)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Location = New System.Drawing.Point(53, 41)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(166, 13)
+        Me.Label7.Size = New System.Drawing.Size(211, 16)
         Me.Label7.TabIndex = 5
         Me.Label7.Text = "Total de clientes pase de cortesia"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(40, 163)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Location = New System.Drawing.Point(53, 201)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(85, 13)
+        Me.Label8.Size = New System.Drawing.Size(108, 16)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "Total recaudado"
         '
         'Totales
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1067, 480)
+        Me.ClientSize = New System.Drawing.Size(1423, 591)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Totales"
         Me.Text = "Totales"
         Me.MenuStrip1.ResumeLayout(False)

@@ -1,14 +1,20 @@
 ﻿Imports System.ComponentModel
 
 Public Class IngresarPeliculas
+
+    'Declaración de las variables que almacenarán las rutas de las imágenes
     Dim ruta1 As String = ""
     Dim ruta2 As String = ""
     Dim ruta3 As String = ""
     Dim ruta4 As String = ""
 
+    'Variable que impedirá que se cambie de ventana hasta haber completado todo
     Dim cambioVentana As Integer = 0
 
+    'Variables que almacenaran los horarios ingresados
     Dim horario1(), horario2(), horario3(), horario4() As String
+
+    'Controles de las opciones del MenuStrip
     Private Sub BienvenidaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BienvenidaToolStripMenuItem.Click
         bienvenida.Show()
         Me.Hide()
@@ -20,6 +26,7 @@ Public Class IngresarPeliculas
 
 
     Private Sub VerTotalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerTotalesToolStripMenuItem.Click
+        'Aquí se controla que no se puede cambiar de ventana hasta que se haya completado todo
         If cambioVentana = 1 Then
             Totales.Show()
             Me.Hide()
@@ -29,6 +36,7 @@ Public Class IngresarPeliculas
     End Sub
 
     Private Sub ConsultarPelículasYTandasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarPelículasYTandasToolStripMenuItem.Click
+        'Aquí se controla que no se puede cambiar de ventana hasta que se haya completado todo
         If cambioVentana = 1 Then
             ConsultarPelicula.Show()
             Me.Hide()
@@ -38,6 +46,7 @@ Public Class IngresarPeliculas
     End Sub
 
     Private Sub VerAsientosDisponiblesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerAsientosDisponiblesToolStripMenuItem.Click
+        'Aquí se controla que no se puede cambiar de ventana hasta que se haya completado todo
         If cambioVentana = 1 Then
             RevisarAsientos.Show()
             Me.Hide()
@@ -46,11 +55,14 @@ Public Class IngresarPeliculas
         End If
     End Sub
 
+    'Al presionar el botón Cargar Película de cada Sala se abrirá una ventana para seleccionar la imagen que se mostrará. A su vez, esta se asigna.
     Private Sub BtnCargarImagenPelicula1_Click(sender As Object, e As EventArgs) Handles btnCargarImagenPelicula1.Click
+        'Si el diálogo aparece bien, se asigna la imagen al PictureBox
         If pfdCargaImagen.ShowDialog = DialogResult.OK Then
             pbImagenAñadidaPelicula1.ImageLocation = pfdCargaImagen.FileName.ToString
             ruta1 = pbImagenAñadidaPelicula1.ImageLocation
         Else
+            'Sino no se le asigna nada
             ruta1 = ""
         End If
     End Sub
@@ -82,19 +94,23 @@ Public Class IngresarPeliculas
         End If
     End Sub
 
+    'Este botón agregará el horario seleccionado en el combobox al listbox.
     Private Sub BtnAgregarHorario1_Click(sender As Object, e As EventArgs) Handles btnAgregarHorario1.Click
+        'Si no se ha seleccionado nada en el comboBox saltará un mensaje. 
         If (cmbAgregarHorario1.SelectedItem = "") Then
             MsgBox("Seleccione un horario para la película", MsgBoxStyle.Critical)
+            'En caso contrario, se almacena lo seleccionado en el combobox en el listbox
         Else
             lbHorariosAgregados1.Items.Add(cmbAgregarHorario1.SelectedItem)
         End If
 
-
+        'Este método evita que haya valores repetidos en el listbox
         Dim items(lbHorariosAgregados1.Items.Count - 1) As Object
         lbHorariosAgregados1.Items.CopyTo(items, 0)
         lbHorariosAgregados1.Items.Clear()
         lbHorariosAgregados1.Items.AddRange(items.AsEnumerable().Distinct().ToArray())
 
+        'Esta sección de aquí manda la información del listbox al método que lo almacena para devolverlo en otras pantallas
         Dim Size, i As Integer
         Size = Me.lbHorariosAgregados1.Items.Count - 1
         ReDim horario1(0 To Size)

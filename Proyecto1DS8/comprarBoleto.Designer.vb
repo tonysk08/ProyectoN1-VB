@@ -23,6 +23,8 @@ Partial Class comprarBoleto
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.gbdatosEntrada = New System.Windows.Forms.GroupBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.nudMenores = New System.Windows.Forms.NumericUpDown()
         Me.nudMayores = New System.Windows.Forms.NumericUpDown()
         Me.lblPeliculaEstrenoSiNo = New System.Windows.Forms.Label()
@@ -32,8 +34,6 @@ Partial Class comprarBoleto
         Me.lblPagas = New System.Windows.Forms.Label()
         Me.txtPagas = New System.Windows.Forms.TextBox()
         Me.btnPagar = New System.Windows.Forms.Button()
-        Me.lblAsiento = New System.Windows.Forms.Label()
-        Me.txtAsiento = New System.Windows.Forms.TextBox()
         Me.txtCosto = New System.Windows.Forms.TextBox()
         Me.lblCosto = New System.Windows.Forms.Label()
         Me.lbHorarioElegido = New System.Windows.Forms.ListBox()
@@ -52,8 +52,6 @@ Partial Class comprarBoleto
         Me.ConsultarPelículasYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAsientosDisponiblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerTotalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.gbdatosEntrada.SuspendLayout()
         CType(Me.nudMenores, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudMayores, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -77,8 +75,6 @@ Partial Class comprarBoleto
         Me.gbdatosEntrada.Controls.Add(Me.lblPagas)
         Me.gbdatosEntrada.Controls.Add(Me.txtPagas)
         Me.gbdatosEntrada.Controls.Add(Me.btnPagar)
-        Me.gbdatosEntrada.Controls.Add(Me.lblAsiento)
-        Me.gbdatosEntrada.Controls.Add(Me.txtAsiento)
         Me.gbdatosEntrada.Controls.Add(Me.txtCosto)
         Me.gbdatosEntrada.Controls.Add(Me.lblCosto)
         Me.gbdatosEntrada.Controls.Add(Me.lbHorarioElegido)
@@ -101,10 +97,28 @@ Partial Class comprarBoleto
         Me.gbdatosEntrada.TabStop = False
         Me.gbdatosEntrada.Text = "Datos de entrada"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(572, 82)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(49, 20)
+        Me.Label3.TabIndex = 56
+        Me.Label3.Text = "Niños"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(488, 82)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(63, 20)
+        Me.Label2.TabIndex = 55
+        Me.Label2.Text = "Adultos"
+        '
         'nudMenores
         '
         Me.nudMenores.Location = New System.Drawing.Point(576, 105)
-        Me.nudMenores.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.nudMenores.Margin = New System.Windows.Forms.Padding(4)
         Me.nudMenores.Name = "nudMenores"
         Me.nudMenores.Size = New System.Drawing.Size(58, 26)
         Me.nudMenores.TabIndex = 54
@@ -112,7 +126,7 @@ Partial Class comprarBoleto
         'nudMayores
         '
         Me.nudMayores.Location = New System.Drawing.Point(488, 105)
-        Me.nudMayores.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.nudMayores.Margin = New System.Windows.Forms.Padding(4)
         Me.nudMayores.Name = "nudMayores"
         Me.nudMayores.Size = New System.Drawing.Size(67, 26)
         Me.nudMayores.TabIndex = 53
@@ -162,7 +176,7 @@ Partial Class comprarBoleto
         '
         Me.lblPagas.AutoSize = True
         Me.lblPagas.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPagas.Location = New System.Drawing.Point(41, 388)
+        Me.lblPagas.Location = New System.Drawing.Point(37, 362)
         Me.lblPagas.Name = "lblPagas"
         Me.lblPagas.Size = New System.Drawing.Size(48, 17)
         Me.lblPagas.TabIndex = 48
@@ -172,7 +186,7 @@ Partial Class comprarBoleto
         'txtPagas
         '
         Me.txtPagas.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPagas.Location = New System.Drawing.Point(465, 385)
+        Me.txtPagas.Location = New System.Drawing.Point(461, 359)
         Me.txtPagas.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPagas.Name = "txtPagas"
         Me.txtPagas.Size = New System.Drawing.Size(139, 23)
@@ -185,7 +199,7 @@ Partial Class comprarBoleto
         Me.btnPagar.BackColor = System.Drawing.Color.ForestGreen
         Me.btnPagar.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPagar.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnPagar.Location = New System.Drawing.Point(469, 457)
+        Me.btnPagar.Location = New System.Drawing.Point(389, 423)
         Me.btnPagar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnPagar.Name = "btnPagar"
         Me.btnPagar.Size = New System.Drawing.Size(111, 39)
@@ -194,32 +208,10 @@ Partial Class comprarBoleto
         Me.btnPagar.UseVisualStyleBackColor = False
         Me.btnPagar.Visible = False
         '
-        'lblAsiento
-        '
-        Me.lblAsiento.AutoSize = True
-        Me.lblAsiento.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAsiento.Location = New System.Drawing.Point(41, 304)
-        Me.lblAsiento.Name = "lblAsiento"
-        Me.lblAsiento.Size = New System.Drawing.Size(62, 17)
-        Me.lblAsiento.TabIndex = 45
-        Me.lblAsiento.Text = "Asientos"
-        Me.lblAsiento.Visible = False
-        '
-        'txtAsiento
-        '
-        Me.txtAsiento.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAsiento.Location = New System.Drawing.Point(275, 302)
-        Me.txtAsiento.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtAsiento.Name = "txtAsiento"
-        Me.txtAsiento.ReadOnly = True
-        Me.txtAsiento.Size = New System.Drawing.Size(125, 23)
-        Me.txtAsiento.TabIndex = 44
-        Me.txtAsiento.Visible = False
-        '
         'txtCosto
         '
         Me.txtCosto.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCosto.Location = New System.Drawing.Point(465, 346)
+        Me.txtCosto.Location = New System.Drawing.Point(461, 320)
         Me.txtCosto.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtCosto.Name = "txtCosto"
         Me.txtCosto.ReadOnly = True
@@ -232,7 +224,7 @@ Partial Class comprarBoleto
         '
         Me.lblCosto.AutoSize = True
         Me.lblCosto.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCosto.Location = New System.Drawing.Point(41, 350)
+        Me.lblCosto.Location = New System.Drawing.Point(37, 324)
         Me.lblCosto.Name = "lblCosto"
         Me.lblCosto.Size = New System.Drawing.Size(44, 17)
         Me.lblCosto.TabIndex = 42
@@ -267,7 +259,7 @@ Partial Class comprarBoleto
         Me.btnProcesar.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.btnProcesar.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnProcesar.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnProcesar.Location = New System.Drawing.Point(285, 457)
+        Me.btnProcesar.Location = New System.Drawing.Point(205, 423)
         Me.btnProcesar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnProcesar.Name = "btnProcesar"
         Me.btnProcesar.Size = New System.Drawing.Size(147, 39)
@@ -396,24 +388,6 @@ Partial Class comprarBoleto
         Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(96, 25)
         Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(488, 82)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(63, 20)
-        Me.Label2.TabIndex = 55
-        Me.Label2.Text = "Adultos"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(572, 82)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(49, 20)
-        Me.Label3.TabIndex = 56
-        Me.Label3.Text = "Niños"
-        '
         'comprarBoleto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -448,8 +422,6 @@ Partial Class comprarBoleto
     Friend WithEvents lblPagas As Label
     Friend WithEvents txtPagas As TextBox
     Friend WithEvents btnPagar As Button
-    Friend WithEvents lblAsiento As Label
-    Friend WithEvents txtAsiento As TextBox
     Friend WithEvents txtCosto As TextBox
     Friend WithEvents lblCosto As Label
     Friend WithEvents lbHorarioElegido As ListBox
