@@ -39,11 +39,11 @@
 
     Public Function returnPaseCortesiaSi(ByRef cantidadPersonas As Integer) As Integer
         cantidadPaseCortesiaSi = cantidadPaseCortesiaSi + cantidadPersonas
-        Return cantidadPersonas
+        Return cantidadPaseCortesiaSi
     End Function
 
-    Public Function returnPaseCortesiaNo(ByRef cantidadPersonas As Integer) As Integer
-        cantidadPaseCortesiaNo = cantidadPaseCortesiaNo + cantidadPersonas
-        Return cantidadPersonas
+    Public Function returnDineroCortesia(ByRef costoBoleto As Integer) As Integer
+        cantidadPaseCortesiaNo = cantidadPaseCortesiaNo + costoBoleto
+        Return cantidadPaseCortesiaNo
     End Function
 End Module
