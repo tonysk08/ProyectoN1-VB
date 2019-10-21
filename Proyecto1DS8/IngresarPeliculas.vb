@@ -143,7 +143,7 @@ Public Class IngresarPeliculas
     End Sub
 
     Private Sub BtnAgregarHorario3_Click(sender As Object, e As EventArgs) Handles btnAgregarHorario3.Click
-        If (cmbAgregarHorario1.SelectedItem = "") Then
+        If (cmbAgregarHorario3.SelectedItem = "") Then
             MsgBox("Seleccione un horario para la película", MsgBoxStyle.Critical)
         Else
             lbHorariosAgregados3.Items.Add(cmbAgregarHorario3.SelectedItem)

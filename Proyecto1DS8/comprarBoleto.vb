@@ -1,4 +1,8 @@
 ﻿Public Class comprarBoleto
+    Private mayorEdad, menorEdad As Single
+    Private montoGanado As Double
+
+    'Al presionarlo redirige al formulario bienvenida y oculta este formulario
     Private Sub BienvenidaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BienvenidaToolStripMenuItem.Click
         bienvenida.Show()
         Me.Hide()
@@ -44,14 +48,23 @@
             ElseIf pagas > costo Then
             End If
 
-            'Aquí se manda el nombre de la película para ser usado en la Factura. Se almacena en la variable movieName y se llama desde el Módulo Movies y la función Sala Elegida
+
+            'Monto generado 
+            montoGanado = montoGanado + total
+            AlmacenandoTotales.returnMontoTotal(montoGanado)
+
+            'Aquí se manda el nombre de la película y el total de boletos para ser usado en la Factura y en los totales. Se almacena en la variable movieName y se llama desde el Módulo Movies y la función Sala Elegida
             If Movies.SalaElegida = 1 Then
+                AlmacenandoTotales.returnTotalSala1(montoGanado)
                 movieName = Movies.Nombres1()
             ElseIf Movies.SalaElegida = 2 Then
+                AlmacenandoTotales.returnTotalSala2(montoGanado)
                 movieName = Movies.Nombres2()
             ElseIf Movies.SalaElegida = 3 Then
+                AlmacenandoTotales.returnTotalSala3(montoGanado)
                 movieName = Movies.Nombres3()
             ElseIf Movies.SalaElegida = 4 Then
+                AlmacenandoTotales.returnTotalSala4(montoGanado)
                 movieName = Movies.Nombres4()
             End If
 
@@ -63,11 +76,10 @@
             VentaEntradas.numAsiento(nudNumeroBoleto.Value)
 
             'Numero de edad
-            mayorEdad = nudMayores.Value
-            menorEdad = nudMenores.Value
+            AlmacenandoTotales.returnMayorEdad(nudMayores.Value)
+            AlmacenandoTotales.returnMenorEdad(nudMenores.Value)
 
-            'Monto generado 
-            montoGanado = montoGanado + total
+
         End If
     End Sub
 
@@ -136,6 +148,9 @@
     Private Sub ComprarBoleto_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim sala As Integer
 
+        montoGanado = 0
+        montoGanado = AlmacenandoTotales.returnMontoTotal(montoGanado)
+
         'Se asigna la sala según lo seleccionado en el formulario Consultar Película
         sala = Movies.SalaElegida()
 
@@ -180,17 +195,5 @@
         dtpFechaEntrada.Show()
         lbHorarioElegido.SelectedIndex = 0
     End Sub
-
-    Public Function monto() As Double
-        Return montoGanado
-    End Function
-
-    Public Function mayoresEdad() As Single
-        Return mayorEdad
-    End Function
-
-    Public Function menoresEdad() As Single
-        Return menorEdad
-    End Function
 
 End Class
