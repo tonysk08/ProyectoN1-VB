@@ -54,6 +54,7 @@
             'CambiarHorarios()
             Factura.guardar(movieName, movieDate, movieDay, "Sala " & Movies.SalaElegida, costo, pagas, total)
             Factura.Show()
+        End If
     End Sub
 
     Sub CambiarHorarios()
