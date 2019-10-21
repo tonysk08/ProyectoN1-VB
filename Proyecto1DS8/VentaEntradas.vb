@@ -1,4 +1,7 @@
 ﻿Module VentaEntradas
+
+
+
     Public Function Estreno() As String
         Dim SalaElegida As Integer = Movies.SalaElegida()
         Dim fechaEstreno, fechaPelicula As Date
