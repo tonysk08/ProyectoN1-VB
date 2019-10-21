@@ -149,4 +149,12 @@
         lbHorarioElegido.SelectedIndex = 0
     End Sub
 
+    Private Sub CbPaseCortesia_CheckedChanged(sender As Object, e As EventArgs) Handles cbPaseCortesia.CheckedChanged
+        If cbPaseCortesia.Checked Then
+            If VentaEntradas.Estreno = "Estreno" Then
+                MsgBox("No puede usar el pase de cortesía en una película en estreno", MsgBoxStyle.Critical)
+                cbPaseCortesia.CheckState = CheckState.Unchecked
+            End If
+        End If
+    End Sub
 End Class

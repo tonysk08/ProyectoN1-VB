@@ -19,14 +19,13 @@
         DifDias = DateDiff("d", fechaEstreno, fechaPelicula)
 
         If DifDias <= 7 Then
-            Return "Si"
+            Return "Estreno"
         ElseIf DifDias > 7 Then
-            Return "No"
+            Return "Regular"
         Else
             Return "Error"
         End If
 
     End Function
-
 
 End Module
