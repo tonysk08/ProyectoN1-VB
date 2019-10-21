@@ -19,9 +19,9 @@ Public Class IngresarPeliculas
     End Sub
 
 
-    Private Sub VERTOTALESToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VERTOTALESToolStripMenuItem.Click
+    Private Sub VerTotalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerTotalesToolStripMenuItem.Click
         If cambioVentana = 1 Then
-            ConsultarPelicula.Show()
+            Totales.Show()
             Me.Hide()
         Else
             MsgBox("No puedes salir de esta ventana hasta rellenear todos los campos")
@@ -40,15 +40,6 @@ Public Class IngresarPeliculas
     Private Sub VerAsientosDisponiblesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerAsientosDisponiblesToolStripMenuItem.Click
         If cambioVentana = 1 Then
             RevisarAsientos.Show()
-            Me.Hide()
-        Else
-            MsgBox("No puedes salir de esta ventana hasta rellenear todos los campos")
-        End If
-    End Sub
-
-    Private Sub VentaDeEntradasToolStripMenuItem_Click(sender As Object, e As EventArgs) 
-        If cambioVentana = 1 Then
-            comprarBoleto.Show()
             Me.Hide()
         Else
             MsgBox("No puedes salir de esta ventana hasta rellenear todos los campos")

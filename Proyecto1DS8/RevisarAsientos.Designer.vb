@@ -38,8 +38,8 @@ Partial Class RevisarAsientos
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BienvenidaToolStripMenuItem, Me.IngresarPelículaYTandasToolStripMenuItem, Me.ConsultarPelículasYTandasToolStripMenuItem, Me.VerAsientosDisponiblesToolStripMenuItem, Me.VerTotalesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(861, 29)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1148, 36)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -47,43 +47,44 @@ Partial Class RevisarAsientos
         '
         Me.BienvenidaToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.BienvenidaToolStripMenuItem.Name = "BienvenidaToolStripMenuItem"
-        Me.BienvenidaToolStripMenuItem.Size = New System.Drawing.Size(98, 25)
+        Me.BienvenidaToolStripMenuItem.Size = New System.Drawing.Size(121, 32)
         Me.BienvenidaToolStripMenuItem.Text = "Bienvenida"
         '
         'IngresarPelículaYTandasToolStripMenuItem
         '
         Me.IngresarPelículaYTandasToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.IngresarPelículaYTandasToolStripMenuItem.Name = "IngresarPelículaYTandasToolStripMenuItem"
-        Me.IngresarPelículaYTandasToolStripMenuItem.Size = New System.Drawing.Size(205, 25)
+        Me.IngresarPelículaYTandasToolStripMenuItem.Size = New System.Drawing.Size(254, 32)
         Me.IngresarPelículaYTandasToolStripMenuItem.Text = "Ingresar películas y tandas"
         '
         'ConsultarPelículasYTandasToolStripMenuItem
         '
         Me.ConsultarPelículasYTandasToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.ConsultarPelículasYTandasToolStripMenuItem.Name = "ConsultarPelículasYTandasToolStripMenuItem"
-        Me.ConsultarPelículasYTandasToolStripMenuItem.Size = New System.Drawing.Size(215, 25)
+        Me.ConsultarPelículasYTandasToolStripMenuItem.Size = New System.Drawing.Size(267, 32)
         Me.ConsultarPelículasYTandasToolStripMenuItem.Text = "Consultar películas y tandas"
         '
         'VerAsientosDisponiblesToolStripMenuItem
         '
         Me.VerAsientosDisponiblesToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.VerAsientosDisponiblesToolStripMenuItem.Name = "VerAsientosDisponiblesToolStripMenuItem"
-        Me.VerAsientosDisponiblesToolStripMenuItem.Size = New System.Drawing.Size(189, 25)
+        Me.VerAsientosDisponiblesToolStripMenuItem.Size = New System.Drawing.Size(235, 32)
         Me.VerAsientosDisponiblesToolStripMenuItem.Text = "Ver asientos disponibles"
         '
         'VerTotalesToolStripMenuItem
         '
         Me.VerTotalesToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.VerTotalesToolStripMenuItem.Name = "VerTotalesToolStripMenuItem"
-        Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(96, 25)
+        Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(119, 32)
         Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
         '
         'RevisarAsientos
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(861, 450)
+        Me.ClientSize = New System.Drawing.Size(1148, 554)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "RevisarAsientos"
         Me.Text = "RevisarAsientos"
         Me.MenuStrip1.ResumeLayout(False)

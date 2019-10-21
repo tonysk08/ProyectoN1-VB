@@ -19,10 +19,6 @@
         Me.Hide()
     End Sub
 
-    Private Sub VentaDeEntradasToolStripMenuItem_Click(sender As Object, e As EventArgs)
-        MsgBox("Ya estás en esta ventana")
-    End Sub
-
     Private Sub btnPagar_Click(sender As Object, e As EventArgs) Handles btnPagar.Click
         Dim costo, pagas As Double
         Dim total As Double

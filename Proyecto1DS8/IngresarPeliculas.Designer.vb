@@ -27,7 +27,7 @@ Partial Class IngresarPeliculas
         Me.IngresarPelículaYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarPelículasYTandasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerAsientosDisponiblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VERTOTALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VerTotalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.dtpAñadirFechaPelicula1 = New System.Windows.Forms.DateTimePicker()
@@ -97,7 +97,7 @@ Partial Class IngresarPeliculas
         '
         Me.MenuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BienvenidaToolStripMenuItem, Me.IngresarPelículaYTandasToolStripMenuItem, Me.ConsultarPelículasYTandasToolStripMenuItem, Me.VerAsientosDisponiblesToolStripMenuItem, Me.VERTOTALESToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BienvenidaToolStripMenuItem, Me.IngresarPelículaYTandasToolStripMenuItem, Me.ConsultarPelículasYTandasToolStripMenuItem, Me.VerAsientosDisponiblesToolStripMenuItem, Me.VerTotalesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
@@ -133,12 +133,12 @@ Partial Class IngresarPeliculas
         Me.VerAsientosDisponiblesToolStripMenuItem.Size = New System.Drawing.Size(235, 32)
         Me.VerAsientosDisponiblesToolStripMenuItem.Text = "Ver asientos disponibles"
         '
-        'VERTOTALESToolStripMenuItem
+        'VerTotalesToolStripMenuItem
         '
-        Me.VERTOTALESToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.VERTOTALESToolStripMenuItem.Name = "VERTOTALESToolStripMenuItem"
-        Me.VERTOTALESToolStripMenuItem.Size = New System.Drawing.Size(119, 32)
-        Me.VERTOTALESToolStripMenuItem.Text = "Ver Totales"
+        Me.VerTotalesToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.VerTotalesToolStripMenuItem.Name = "VerTotalesToolStripMenuItem"
+        Me.VerTotalesToolStripMenuItem.Size = New System.Drawing.Size(119, 32)
+        Me.VerTotalesToolStripMenuItem.Text = "Ver Totales"
         '
         'GroupBox1
         '
@@ -158,9 +158,9 @@ Partial Class IngresarPeliculas
         Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(16, 63)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(349, 690)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
@@ -182,7 +182,7 @@ Partial Class IngresarPeliculas
         Me.dtpAñadirFechaPelicula1.CustomFormat = "ddd d MMM yyyy"
         Me.dtpAñadirFechaPelicula1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpAñadirFechaPelicula1.Location = New System.Drawing.Point(33, 116)
-        Me.dtpAñadirFechaPelicula1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dtpAñadirFechaPelicula1.Margin = New System.Windows.Forms.Padding(4)
         Me.dtpAñadirFechaPelicula1.MinDate = New Date(2000, 1, 1, 0, 0, 0, 0)
         Me.dtpAñadirFechaPelicula1.Name = "dtpAñadirFechaPelicula1"
         Me.dtpAñadirFechaPelicula1.Size = New System.Drawing.Size(281, 23)
@@ -194,7 +194,7 @@ Partial Class IngresarPeliculas
         Me.lbHorariosAgregados1.FormattingEnabled = True
         Me.lbHorariosAgregados1.ItemHeight = 17
         Me.lbHorariosAgregados1.Location = New System.Drawing.Point(39, 617)
-        Me.lbHorariosAgregados1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lbHorariosAgregados1.Margin = New System.Windows.Forms.Padding(4)
         Me.lbHorariosAgregados1.Name = "lbHorariosAgregados1"
         Me.lbHorariosAgregados1.Size = New System.Drawing.Size(175, 38)
         Me.lbHorariosAgregados1.TabIndex = 10
@@ -203,7 +203,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnAgregarHorario1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAgregarHorario1.Location = New System.Drawing.Point(232, 564)
-        Me.btnAgregarHorario1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAgregarHorario1.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregarHorario1.Name = "btnAgregarHorario1"
         Me.btnAgregarHorario1.Size = New System.Drawing.Size(89, 28)
         Me.btnAgregarHorario1.TabIndex = 9
@@ -228,7 +228,7 @@ Partial Class IngresarPeliculas
         Me.cmbAgregarHorario1.FormattingEnabled = True
         Me.cmbAgregarHorario1.Items.AddRange(New Object() {"11:30 AM", "01:00 PM", "02:15 PM", "03:40 PM", "05:00 PM", "06:20 PM", "07:40 PM", "09:15 PM", "10:40 PM"})
         Me.cmbAgregarHorario1.Location = New System.Drawing.Point(39, 533)
-        Me.cmbAgregarHorario1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbAgregarHorario1.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbAgregarHorario1.Name = "cmbAgregarHorario1"
         Me.cmbAgregarHorario1.Size = New System.Drawing.Size(175, 25)
         Me.cmbAgregarHorario1.TabIndex = 7
@@ -270,7 +270,7 @@ Partial Class IngresarPeliculas
         '
         Me.txtAñadirNombrePelicula1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAñadirNombrePelicula1.Location = New System.Drawing.Point(33, 52)
-        Me.txtAñadirNombrePelicula1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtAñadirNombrePelicula1.Margin = New System.Windows.Forms.Padding(4)
         Me.txtAñadirNombrePelicula1.Name = "txtAñadirNombrePelicula1"
         Me.txtAñadirNombrePelicula1.Size = New System.Drawing.Size(281, 23)
         Me.txtAñadirNombrePelicula1.TabIndex = 3
@@ -279,7 +279,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnCargarImagenPelicula1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCargarImagenPelicula1.Location = New System.Drawing.Point(199, 475)
-        Me.btnCargarImagenPelicula1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCargarImagenPelicula1.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCargarImagenPelicula1.Name = "btnCargarImagenPelicula1"
         Me.btnCargarImagenPelicula1.Size = New System.Drawing.Size(123, 28)
         Me.btnCargarImagenPelicula1.TabIndex = 2
@@ -292,7 +292,7 @@ Partial Class IngresarPeliculas
         Me.pbImagenAñadidaPelicula1.Image = Global.Proyecto1DS8.My.Resources.Resources.emptyImage
         Me.pbImagenAñadidaPelicula1.InitialImage = Nothing
         Me.pbImagenAñadidaPelicula1.Location = New System.Drawing.Point(59, 178)
-        Me.pbImagenAñadidaPelicula1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pbImagenAñadidaPelicula1.Margin = New System.Windows.Forms.Padding(4)
         Me.pbImagenAñadidaPelicula1.Name = "pbImagenAñadidaPelicula1"
         Me.pbImagenAñadidaPelicula1.Size = New System.Drawing.Size(231, 289)
         Me.pbImagenAñadidaPelicula1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -303,7 +303,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnFinalizarIngresoPeliculas.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnFinalizarIngresoPeliculas.Location = New System.Drawing.Point(1287, 763)
-        Me.btnFinalizarIngresoPeliculas.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnFinalizarIngresoPeliculas.Margin = New System.Windows.Forms.Padding(4)
         Me.btnFinalizarIngresoPeliculas.Name = "btnFinalizarIngresoPeliculas"
         Me.btnFinalizarIngresoPeliculas.Size = New System.Drawing.Size(151, 37)
         Me.btnFinalizarIngresoPeliculas.TabIndex = 4
@@ -328,9 +328,9 @@ Partial Class IngresarPeliculas
         Me.GroupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(373, 63)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Size = New System.Drawing.Size(349, 690)
         Me.GroupBox2.TabIndex = 12
         Me.GroupBox2.TabStop = False
@@ -352,7 +352,7 @@ Partial Class IngresarPeliculas
         Me.dtpAñadirFechaPelicula2.CustomFormat = "ddd d MMM yyyy"
         Me.dtpAñadirFechaPelicula2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpAñadirFechaPelicula2.Location = New System.Drawing.Point(33, 116)
-        Me.dtpAñadirFechaPelicula2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dtpAñadirFechaPelicula2.Margin = New System.Windows.Forms.Padding(4)
         Me.dtpAñadirFechaPelicula2.MinDate = New Date(2000, 1, 1, 0, 0, 0, 0)
         Me.dtpAñadirFechaPelicula2.Name = "dtpAñadirFechaPelicula2"
         Me.dtpAñadirFechaPelicula2.Size = New System.Drawing.Size(281, 23)
@@ -364,7 +364,7 @@ Partial Class IngresarPeliculas
         Me.lbHorariosAgregados2.FormattingEnabled = True
         Me.lbHorariosAgregados2.ItemHeight = 17
         Me.lbHorariosAgregados2.Location = New System.Drawing.Point(39, 617)
-        Me.lbHorariosAgregados2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lbHorariosAgregados2.Margin = New System.Windows.Forms.Padding(4)
         Me.lbHorariosAgregados2.Name = "lbHorariosAgregados2"
         Me.lbHorariosAgregados2.Size = New System.Drawing.Size(175, 38)
         Me.lbHorariosAgregados2.TabIndex = 10
@@ -373,7 +373,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnAgregarHorario2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAgregarHorario2.Location = New System.Drawing.Point(232, 564)
-        Me.btnAgregarHorario2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAgregarHorario2.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregarHorario2.Name = "btnAgregarHorario2"
         Me.btnAgregarHorario2.Size = New System.Drawing.Size(89, 28)
         Me.btnAgregarHorario2.TabIndex = 9
@@ -398,7 +398,7 @@ Partial Class IngresarPeliculas
         Me.cmbAgregarHorario2.FormattingEnabled = True
         Me.cmbAgregarHorario2.Items.AddRange(New Object() {"11:30 AM", "01:00 PM", "02:15 PM", "03:40 PM", "05:00 PM", "06:20 PM", "07:40 PM", "09:15 PM", "10:40 PM"})
         Me.cmbAgregarHorario2.Location = New System.Drawing.Point(39, 533)
-        Me.cmbAgregarHorario2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbAgregarHorario2.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbAgregarHorario2.Name = "cmbAgregarHorario2"
         Me.cmbAgregarHorario2.Size = New System.Drawing.Size(175, 25)
         Me.cmbAgregarHorario2.TabIndex = 7
@@ -440,7 +440,7 @@ Partial Class IngresarPeliculas
         '
         Me.txtAñadirNombrePelicula2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAñadirNombrePelicula2.Location = New System.Drawing.Point(33, 52)
-        Me.txtAñadirNombrePelicula2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtAñadirNombrePelicula2.Margin = New System.Windows.Forms.Padding(4)
         Me.txtAñadirNombrePelicula2.Name = "txtAñadirNombrePelicula2"
         Me.txtAñadirNombrePelicula2.Size = New System.Drawing.Size(281, 23)
         Me.txtAñadirNombrePelicula2.TabIndex = 3
@@ -449,7 +449,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnCargarImagenPelicula2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCargarImagenPelicula2.Location = New System.Drawing.Point(199, 475)
-        Me.btnCargarImagenPelicula2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCargarImagenPelicula2.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCargarImagenPelicula2.Name = "btnCargarImagenPelicula2"
         Me.btnCargarImagenPelicula2.Size = New System.Drawing.Size(123, 28)
         Me.btnCargarImagenPelicula2.TabIndex = 2
@@ -462,7 +462,7 @@ Partial Class IngresarPeliculas
         Me.pbImagenAñadidaPelicula2.Image = Global.Proyecto1DS8.My.Resources.Resources.emptyImage
         Me.pbImagenAñadidaPelicula2.InitialImage = Nothing
         Me.pbImagenAñadidaPelicula2.Location = New System.Drawing.Point(59, 178)
-        Me.pbImagenAñadidaPelicula2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pbImagenAñadidaPelicula2.Margin = New System.Windows.Forms.Padding(4)
         Me.pbImagenAñadidaPelicula2.Name = "pbImagenAñadidaPelicula2"
         Me.pbImagenAñadidaPelicula2.Size = New System.Drawing.Size(231, 289)
         Me.pbImagenAñadidaPelicula2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -487,9 +487,9 @@ Partial Class IngresarPeliculas
         Me.GroupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.Location = New System.Drawing.Point(731, 63)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Size = New System.Drawing.Size(349, 690)
         Me.GroupBox3.TabIndex = 12
         Me.GroupBox3.TabStop = False
@@ -511,7 +511,7 @@ Partial Class IngresarPeliculas
         Me.dtpAñadirFechaPelicula3.CustomFormat = "ddd d MMM yyyy"
         Me.dtpAñadirFechaPelicula3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpAñadirFechaPelicula3.Location = New System.Drawing.Point(33, 116)
-        Me.dtpAñadirFechaPelicula3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dtpAñadirFechaPelicula3.Margin = New System.Windows.Forms.Padding(4)
         Me.dtpAñadirFechaPelicula3.MinDate = New Date(2000, 1, 1, 0, 0, 0, 0)
         Me.dtpAñadirFechaPelicula3.Name = "dtpAñadirFechaPelicula3"
         Me.dtpAñadirFechaPelicula3.Size = New System.Drawing.Size(281, 23)
@@ -523,7 +523,7 @@ Partial Class IngresarPeliculas
         Me.lbHorariosAgregados3.FormattingEnabled = True
         Me.lbHorariosAgregados3.ItemHeight = 17
         Me.lbHorariosAgregados3.Location = New System.Drawing.Point(39, 617)
-        Me.lbHorariosAgregados3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lbHorariosAgregados3.Margin = New System.Windows.Forms.Padding(4)
         Me.lbHorariosAgregados3.Name = "lbHorariosAgregados3"
         Me.lbHorariosAgregados3.Size = New System.Drawing.Size(175, 38)
         Me.lbHorariosAgregados3.TabIndex = 10
@@ -532,7 +532,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnAgregarHorario3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAgregarHorario3.Location = New System.Drawing.Point(232, 564)
-        Me.btnAgregarHorario3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAgregarHorario3.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregarHorario3.Name = "btnAgregarHorario3"
         Me.btnAgregarHorario3.Size = New System.Drawing.Size(89, 28)
         Me.btnAgregarHorario3.TabIndex = 9
@@ -557,7 +557,7 @@ Partial Class IngresarPeliculas
         Me.cmbAgregarHorario3.FormattingEnabled = True
         Me.cmbAgregarHorario3.Items.AddRange(New Object() {"11:30 AM", "01:00 PM", "02:15 PM", "03:40 PM", "05:00 PM", "06:20 PM", "07:40 PM", "09:15 PM", "10:40 PM"})
         Me.cmbAgregarHorario3.Location = New System.Drawing.Point(39, 533)
-        Me.cmbAgregarHorario3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbAgregarHorario3.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbAgregarHorario3.Name = "cmbAgregarHorario3"
         Me.cmbAgregarHorario3.Size = New System.Drawing.Size(175, 25)
         Me.cmbAgregarHorario3.TabIndex = 7
@@ -599,7 +599,7 @@ Partial Class IngresarPeliculas
         '
         Me.txtAñadirNombrePelicula3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAñadirNombrePelicula3.Location = New System.Drawing.Point(33, 52)
-        Me.txtAñadirNombrePelicula3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtAñadirNombrePelicula3.Margin = New System.Windows.Forms.Padding(4)
         Me.txtAñadirNombrePelicula3.Name = "txtAñadirNombrePelicula3"
         Me.txtAñadirNombrePelicula3.Size = New System.Drawing.Size(281, 23)
         Me.txtAñadirNombrePelicula3.TabIndex = 3
@@ -608,7 +608,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnCargarImagenPelicula3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCargarImagenPelicula3.Location = New System.Drawing.Point(199, 475)
-        Me.btnCargarImagenPelicula3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCargarImagenPelicula3.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCargarImagenPelicula3.Name = "btnCargarImagenPelicula3"
         Me.btnCargarImagenPelicula3.Size = New System.Drawing.Size(123, 28)
         Me.btnCargarImagenPelicula3.TabIndex = 2
@@ -621,7 +621,7 @@ Partial Class IngresarPeliculas
         Me.pbImagenAñadidaPelicula3.Image = Global.Proyecto1DS8.My.Resources.Resources.emptyImage
         Me.pbImagenAñadidaPelicula3.InitialImage = Nothing
         Me.pbImagenAñadidaPelicula3.Location = New System.Drawing.Point(59, 178)
-        Me.pbImagenAñadidaPelicula3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pbImagenAñadidaPelicula3.Margin = New System.Windows.Forms.Padding(4)
         Me.pbImagenAñadidaPelicula3.Name = "pbImagenAñadidaPelicula3"
         Me.pbImagenAñadidaPelicula3.Size = New System.Drawing.Size(231, 289)
         Me.pbImagenAñadidaPelicula3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -646,9 +646,9 @@ Partial Class IngresarPeliculas
         Me.GroupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.Location = New System.Drawing.Point(1088, 65)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Size = New System.Drawing.Size(349, 690)
         Me.GroupBox4.TabIndex = 12
         Me.GroupBox4.TabStop = False
@@ -670,7 +670,7 @@ Partial Class IngresarPeliculas
         Me.dtpAñadirFechaPelicula4.CustomFormat = "ddd d MMM yyyy"
         Me.dtpAñadirFechaPelicula4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpAñadirFechaPelicula4.Location = New System.Drawing.Point(33, 116)
-        Me.dtpAñadirFechaPelicula4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dtpAñadirFechaPelicula4.Margin = New System.Windows.Forms.Padding(4)
         Me.dtpAñadirFechaPelicula4.MinDate = New Date(2000, 1, 1, 0, 0, 0, 0)
         Me.dtpAñadirFechaPelicula4.Name = "dtpAñadirFechaPelicula4"
         Me.dtpAñadirFechaPelicula4.Size = New System.Drawing.Size(281, 23)
@@ -682,7 +682,7 @@ Partial Class IngresarPeliculas
         Me.lbHorariosAgregados4.FormattingEnabled = True
         Me.lbHorariosAgregados4.ItemHeight = 17
         Me.lbHorariosAgregados4.Location = New System.Drawing.Point(33, 614)
-        Me.lbHorariosAgregados4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lbHorariosAgregados4.Margin = New System.Windows.Forms.Padding(4)
         Me.lbHorariosAgregados4.Name = "lbHorariosAgregados4"
         Me.lbHorariosAgregados4.Size = New System.Drawing.Size(175, 38)
         Me.lbHorariosAgregados4.TabIndex = 10
@@ -691,7 +691,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnAgregarHorario4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAgregarHorario4.Location = New System.Drawing.Point(232, 564)
-        Me.btnAgregarHorario4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAgregarHorario4.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregarHorario4.Name = "btnAgregarHorario4"
         Me.btnAgregarHorario4.Size = New System.Drawing.Size(89, 28)
         Me.btnAgregarHorario4.TabIndex = 9
@@ -716,7 +716,7 @@ Partial Class IngresarPeliculas
         Me.cmbAgregarHorario4.FormattingEnabled = True
         Me.cmbAgregarHorario4.Items.AddRange(New Object() {"11:30 AM", "01:00 PM", "02:15 PM", "03:40 PM", "05:00 PM", "06:20 PM", "07:40 PM", "09:15 PM", "10:40 PM"})
         Me.cmbAgregarHorario4.Location = New System.Drawing.Point(39, 533)
-        Me.cmbAgregarHorario4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbAgregarHorario4.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbAgregarHorario4.Name = "cmbAgregarHorario4"
         Me.cmbAgregarHorario4.Size = New System.Drawing.Size(175, 25)
         Me.cmbAgregarHorario4.TabIndex = 7
@@ -758,7 +758,7 @@ Partial Class IngresarPeliculas
         '
         Me.txtAñadirNombrePelicula4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAñadirNombrePelicula4.Location = New System.Drawing.Point(33, 52)
-        Me.txtAñadirNombrePelicula4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtAñadirNombrePelicula4.Margin = New System.Windows.Forms.Padding(4)
         Me.txtAñadirNombrePelicula4.Name = "txtAñadirNombrePelicula4"
         Me.txtAñadirNombrePelicula4.Size = New System.Drawing.Size(281, 23)
         Me.txtAñadirNombrePelicula4.TabIndex = 3
@@ -767,7 +767,7 @@ Partial Class IngresarPeliculas
         '
         Me.btnCargarImagenPelicula4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCargarImagenPelicula4.Location = New System.Drawing.Point(199, 475)
-        Me.btnCargarImagenPelicula4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCargarImagenPelicula4.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCargarImagenPelicula4.Name = "btnCargarImagenPelicula4"
         Me.btnCargarImagenPelicula4.Size = New System.Drawing.Size(123, 28)
         Me.btnCargarImagenPelicula4.TabIndex = 2
@@ -780,7 +780,7 @@ Partial Class IngresarPeliculas
         Me.pbImagenAñadidaPelicula4.Image = Global.Proyecto1DS8.My.Resources.Resources.emptyImage
         Me.pbImagenAñadidaPelicula4.InitialImage = Nothing
         Me.pbImagenAñadidaPelicula4.Location = New System.Drawing.Point(59, 178)
-        Me.pbImagenAñadidaPelicula4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pbImagenAñadidaPelicula4.Margin = New System.Windows.Forms.Padding(4)
         Me.pbImagenAñadidaPelicula4.Name = "pbImagenAñadidaPelicula4"
         Me.pbImagenAñadidaPelicula4.Size = New System.Drawing.Size(231, 289)
         Me.pbImagenAñadidaPelicula4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -802,7 +802,7 @@ Partial Class IngresarPeliculas
         Me.Controls.Add(Me.btnFinalizarIngresoPeliculas)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "IngresarPeliculas"
         Me.Text = "Ingresar Películas y Horarios"
         Me.MenuStrip1.ResumeLayout(False)
@@ -882,5 +882,5 @@ Partial Class IngresarPeliculas
     Friend WithEvents btnCargarImagenPelicula4 As Button
     Friend WithEvents pbImagenAñadidaPelicula4 As PictureBox
     Friend WithEvents pfdCargaImagen As OpenFileDialog
-    Friend WithEvents VERTOTALESToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VerTotalesToolStripMenuItem As ToolStripMenuItem
 End Class

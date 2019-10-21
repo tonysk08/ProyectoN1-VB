@@ -18,8 +18,8 @@
         MsgBox("Ya estás en esta ventana")
     End Sub
 
-    Private Sub VentaDeEntradasToolStripMenuItem_Click(sender As Object, e As EventArgs) 
-        comprarBoleto.Show()
+    Private Sub VerTotalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerTotalesToolStripMenuItem.Click
+        Totales.Show()
         Me.Hide()
     End Sub
 End Class
